@@ -1,0 +1,22 @@
+---
+layout: base
+---
+
+{% assign strings = site.data.strings %}
+
+<div class="page">
+  <h1 class="page-title">{{ page.title | default:strings.offline.title | default: "You Are Offline" }}</h1>
+  <div class="hr pb0"></div>
+
+  {% assign test = page.content | strip_newlines %}
+  {% if test != "" %}
+    {{ content }}
+  {% else %}
+    {% capture home_link %}<a href="{{ '/' | relative_url }}">{{ strings.offline.home_link | default:"Head back home" }}</a>{% endcapture %}
+    {% assign text = strings.offline.message
+      | default:"Sorry, but you appear to be offline and this page has not been prepared for offline viewing. <!--home_link--> to try finding another page." %}
+    <p class="lead">
+      {{ text | replace:"<!--home_link-->", home_link }}
+    </p>
+  {% endif %}
+</div>

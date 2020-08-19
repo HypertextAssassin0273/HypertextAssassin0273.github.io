@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+{% assign plugins = site.plugins | default:site.gems %}
+
+{% if plugins contains 'jekyll-paginate' %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.categories[page.slug] | default:site.tags[page.slug] | default:site.posts %}
+{% endif %}
+  
+{% for post in posts %}
+  {% include_cached components/post.html post=post no_link_title=page.no_link_title no_excerpt=page.no_excerpt hide_image=page.hide_image %}
+{% endfor %}
+
+{% if plugins contains 'jekyll-paginate' %}
+  {% include components/pagination.html %}
+{% endif %}
