@@ -19,7 +19,9 @@ layout: compress
 {% if page.accent_color %}{% assign color       = page.accent_color %}{% endif %}
 {% if page.theme_color  %}{% assign theme_color = page.theme_color  %}{% endif %}
 
-
+<body class="{% include_cached base-classes %}">
+  {% include body/index.html %}
+</body>
 
 {% assign strings = site.data.strings %}
 
