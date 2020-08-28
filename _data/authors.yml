@@ -2,7 +2,7 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              Shahzaib Ahmed
+  name:              Shahzaib Khan
   email:             shazaibahmed0000@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
