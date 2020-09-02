@@ -10,7 +10,7 @@ links:
     url: https://hypertextassassin0273.github.io/ModernSnakesAndLadders-PF_Project
   - title: Github
     url: https://github.com/HypertextAssassin0273/ModernSnakesAndLadders-PF_Project
-caption: C lang based PF-Project
+caption: C language based PF-Project
 description: >
     A simple C language project which covers most of the basics & includes some unique features, using DevC++.<br>
 accent_color: '#4fb1ba'
