@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: YCombinator Startup School
 # description: >
