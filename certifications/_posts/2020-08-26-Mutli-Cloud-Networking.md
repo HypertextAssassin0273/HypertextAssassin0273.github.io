@@ -11,4 +11,5 @@ accent_image:
 ---
 #### Description: 
 Covers Cloud Networking 101, Basic Cloud Concepts & overview of differnet cloud providers.
+
 [**Certificate**](/assets/img/certificates/certificate-of-completion-for-aviatrix-ace-associate.pdf)
