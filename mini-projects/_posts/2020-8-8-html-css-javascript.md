@@ -29,7 +29,7 @@ accent_image:
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
     <img src="/assets/img/mini-projects/slideshow/ppt-exp-1.png" style="width:100%">
-    <div class="text">Arithmetic Calculato</div>
+    <div class="text">Arithmetic Calculator</div>
   </div>
   
   <div class="mySlides fade">
