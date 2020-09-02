@@ -1,4 +1,5 @@
 ---
+published: false
 layout: project
 title: 'Eye-Lexa'
 date: 16 Nov 2018
