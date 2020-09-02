@@ -19,7 +19,7 @@ accent_image:
   <a href="https://github.com/HypertextAssassin0273/Unique_PowerPoint_Presentations"><strong>GitHub Repo (Slides)</strong></a>
   <br>
   <br>
-  
+  <h2 style="text-align: center;">Slideshow Gallery</h2>
   <div class="slideshow-container">
   
   <div class="mySlides fade">
