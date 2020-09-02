@@ -30,13 +30,13 @@ accent_image:
   
   <div class="mySlides fade">
     <div class="numbertext">2 / 9</div>
-    <img src="https://user-images.githubusercontent.com/66676402/88329241-13635000-cd43-11ea-97e4-bffc401b2f1c.jpg" style="width:100%">
+    <img src="/assets/img/mini-projects/slideshow/ppt-exp-2.gif" style="width:100%">
     <div class="text">MAIN MENU</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">3 / 9</div>
-    <img src="https://user-images.githubusercontent.com/66676402/88329704-d481ca00-cd43-11ea-8421-320f6bd25395.jpg" style="width:100%">
+    <img src="/assets/img/mini-projects/slideshow/ppt-exp-3.gif" style="width:100%">
     <div class="text">DICE MENU</div>
   </div>
   
