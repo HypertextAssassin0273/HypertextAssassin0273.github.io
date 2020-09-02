@@ -10,6 +10,6 @@ accent_image:
   overlay:    true
 ---
 #### Description: 
-Covers Cloud Networking 101, Basic Cloud Concepts & overview of different cloud providers.
+Covers Cloud Networking 101, Basic Cloud & Multi-Cloud Concepts, Overview of different Cloud Providers, Cloud Networking Problems & Solutions by Aviatrix.
 
 [**Certificate**](/assets/img/certificates/certificate-of-completion-for-aviatrix-ace-associate.pdf)
