@@ -3,8 +3,8 @@ layout: project
 title: 'ModernSnakes&Ladders'
 date: 18 May 2020
 image:  
-  path: /assets/img/projects/snakes&ladders.jfif
-screenshot: /assets/img/projects/snakes&ladders.jfif
+  path: /assets/img/projects/snakes&ladders.png
+screenshot: /assets/img/projects/snakes&ladders.png
 links:
   - title: Website
     url: https://hypertextassassin0273.github.io/ModernSnakesAndLadders-PF_Project/
