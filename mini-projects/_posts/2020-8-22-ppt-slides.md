@@ -31,49 +31,49 @@ accent_image:
   <div class="mySlides fade">
     <div class="numbertext">2 / 9</div>
     <img src="/assets/img/mini-projects/slideshow/ppt-exp-2.gif" style="width:100%">
-    <div class="text">Zoom Feature</div>
+    <div class="text">Carousel Effect</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">3 / 9</div>
     <img src="/assets/img/mini-projects/slideshow/ppt-exp-3.gif" style="width:100%">
-    <div class="text">Carousel Effect</div>
+    <div class="text">Zoom Feature</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">4 / 9</div>
     <img src="/assets/img/mini-projects/slideshow/ppt-exp-4.gif" style="width:100%">
-    <div class="text">GAME BOARD & PLAYER STATS MENU</div>
+    <div class="text">Prezi Style-1</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">5 / 9</div>
     <img src="/assets/img/mini-projects/slideshow/ppt-exp-5.gif" style="width:100%">
-    <div class="text">WIN MENU</div>
+    <div class="text">Animated Carousel Agenda</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">6 / 9</div>
     <img src="/assets/img/mini-projects/slideshow/ppt-exp-6.gif" style="width:100%">
-    <div class="text">LOAD GAME MENU</div>
+    <div class="text">Multiple Slides Parallax Effect</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">7 / 9</div>
     <img src="/assets/img/mini-projects/slideshow/ppt-exp-7.gif" style="width:100%">
-    <div class="text">SAVE GAME MENU</div>
+    <div class="text">Animated Business Report</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">8 / 9</div>
     <img src="/assets/img/mini-projects/slideshow/ppt-exp-8.gif" style="width:100%">
-    <div class="text">HIDDEN SETTINGS</div>
+    <div class="text">Parallex Effect</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">9 / 9</div>
     <img src="/assets/img/mini-projects/slideshow/ppt-exp-9.gif" style="width:100%">
-    <div class="text">GUIDE MENU</div>
+    <div class="text">Prezi Style-2</div>
   </div>
   
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
