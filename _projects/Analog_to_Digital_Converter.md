@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: project
 title: Analog to Digital Converter
+date: 4 June 2020
 image: /assets/img/mini-projects/dld-project.png 
 links:
   - title: Project Report
