@@ -21,6 +21,6 @@ I created this personal website to keep track of my projects, talk about my expe
 {:.related-posts.faded}
 
 [projects]: projects/
-[blog]: blog/
+[blog]: blog-posts/
 [resume]: resume/
 [certifications]: certifications/
