@@ -1,7 +1,9 @@
 ---
 layout: list
-title: Blog-Posts
-slug: blog-posts
+title: Blog
+slug: blog
+menu: true
+order: 2
 description: >
   A collection of interesting stories/posts/articles that I've pulled out from the Internet.
 accent_color: '#4fb1ba'
