@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 'ModernSnakes&Ladders (PF-Project)'
+title: 'ModernSnakes&Ladders'
 date: 18 May 2020
 image:  
   path: /assets/img/projects/snakes&ladders.jfif
