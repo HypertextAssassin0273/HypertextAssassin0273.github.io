@@ -1,4 +1,5 @@
 ---
+published: false
 layout: project
 title: 'Skyminer'
 date: 10 Apr 2019
