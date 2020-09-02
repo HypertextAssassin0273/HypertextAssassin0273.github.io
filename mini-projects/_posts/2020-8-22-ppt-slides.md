@@ -25,54 +25,54 @@ accent_image:
   <div class="mySlides fade">
     <div class="numbertext">1 / 9</div>
     <img src="/assets/img/mini-projects/slideshow/ppt-exp-1.jpeg" style="width:100%">
-    <div class="text">WELCOME SCREEN</div>
+    <div class="text">iSlide Add-In</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">2 / 9</div>
     <img src="/assets/img/mini-projects/slideshow/ppt-exp-2.gif" style="width:100%">
-    <div class="text">MAIN MENU</div>
+    <div class="text">Zoom Feature</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">3 / 9</div>
     <img src="/assets/img/mini-projects/slideshow/ppt-exp-3.gif" style="width:100%">
-    <div class="text">DICE MENU</div>
+    <div class="text">Carousel Effect</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">4 / 9</div>
-    <img src="https://user-images.githubusercontent.com/66676402/88329340-368dff80-cd43-11ea-84b0-060ebbdc37d8.jpg" style="width:100%">
+    <img src="/assets/img/mini-projects/slideshow/ppt-exp-4.gif" style="width:100%">
     <div class="text">GAME BOARD & PLAYER STATS MENU</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">5 / 9</div>
-    <img src="https://user-images.githubusercontent.com/66676402/88333127-1bbe8980-cd49-11ea-8250-0b0481ff61cd.jpg" style="width:100%">
+    <img src="/assets/img/mini-projects/slideshow/ppt-exp-5.gif" style="width:100%">
     <div class="text">WIN MENU</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">6 / 9</div>
-    <img src="https://user-images.githubusercontent.com/66676402/88329299-270eb680-cd43-11ea-9ef1-30311225b6cd.jpg" style="width:100%">
+    <img src="/assets/img/mini-projects/slideshow/ppt-exp-6.gif" style="width:100%">
     <div class="text">LOAD GAME MENU</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">7 / 9</div>
-    <img src="https://user-images.githubusercontent.com/66676402/88329541-8ec50180-cd43-11ea-8086-733ac5dc45a3.jpg" style="width:100%">
+    <img src="/assets/img/mini-projects/slideshow/ppt-exp-7.gif" style="width:100%">
     <div class="text">SAVE GAME MENU</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">8 / 9</div>
-    <img src="https://user-images.githubusercontent.com/66676402/88333274-604a2500-cd49-11ea-8ecc-502da434e9cd.jpg" style="width:100%">
+    <img src="/assets/img/mini-projects/slideshow/ppt-exp-8.gif" style="width:100%">
     <div class="text">HIDDEN SETTINGS</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">9 / 9</div>
-    <img src="https://user-images.githubusercontent.com/66676402/88329383-4d345680-cd43-11ea-8990-4d2bd8c25164.jpg" style="width:100%">
+    <img src="/assets/img/mini-projects/slideshow/ppt-exp-9.gif" style="width:100%">
     <div class="text">GUIDE MENU</div>
   </div>
   
