@@ -1,4 +1,5 @@
 ---
+sitemap: false
 layout: project
 title: 'SUBZero'
 date: 12 Feb 2019
