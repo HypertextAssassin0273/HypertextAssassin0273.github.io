@@ -11,4 +11,4 @@ accent_image:
 #### Description:
 Contains Latest Animated Presentations using Morph Transition & Zoom Feature, created on Microsoft PowerPoint 2019.
 
-[GitHub Repo (Slides)](https://github.com/HypertextAssassin0273/Unique_PowerPoint_Presentations)
+[**GitHub Repo (Slides)**](https://github.com/HypertextAssassin0273/Unique_PowerPoint_Presentations)
