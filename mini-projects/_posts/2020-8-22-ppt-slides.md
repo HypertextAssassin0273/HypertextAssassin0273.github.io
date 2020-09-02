@@ -24,7 +24,7 @@ accent_image:
   
   <div class="mySlides fade">
     <div class="numbertext">1 / 9</div>
-    <img src="https://user-images.githubusercontent.com/66676402/88329102-e616a200-cd42-11ea-9223-b63647a9dc77.jpg" style="width:100%">
+    <img src="/assets/img/mini-projects/slideshow/ppt-exp-1.jpeg" style="width:100%">
     <div class="text">WELCOME SCREEN</div>
   </div>
   
