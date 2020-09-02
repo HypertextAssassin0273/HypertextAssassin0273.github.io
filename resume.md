@@ -8,11 +8,11 @@ left_column:
  - work
 #  - volunteer
  - education
- - awards
+ - interests
+# - awards
 # - publications
 #  - references
 right_column:
  - languages
  - skills
- - interests
 ---
