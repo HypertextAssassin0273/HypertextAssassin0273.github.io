@@ -14,13 +14,15 @@ I created this personal website to keep track of my projects, talk about my expe
 
 ## Feel Free to Explore
 
-* [Projects]{:.heading.flip-title} ---  Overview of my assorted end product ideas.
 * [Blog]{:.heading.flip-title} --- Just a glimpse into my engineering career.
-* [Resume]{:.heading.flip-title} --- Summarized overview for my amazing experiences.
+* [Projects]{:.heading.flip-title} ---  Overview of my assorted end product ideas.
+* [Mini-Projects]{:.heading.flip-title} ---  My spare time practice projects.
 * [Certifications]{:.heading.flip-title} --- A few achievements, but rare ones.
+* [Resume]{:.heading.flip-title} --- Summarized overview for my amazing experiences.
 {:.related-posts.faded}
 
-[projects]: projects/
 [blog]: blog-posts/
-[resume]: resume/
+[projects]: projects/
+[mini-projects]: mini-projects/
 [certifications]: certifications/
+[resume]: resume/
