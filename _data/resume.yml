@@ -50,11 +50,11 @@ education:
     studyType: "FSc"
     startDate: "2018-06-01"
     endDate: "2019-4-01"
-awards:
-  - title: "Startup School"
-    date: "2018-09-01"
-    awarder: "YCombinator"
-    summary: "Completed YCombinator's Startup School program on how to build a successful startup."
+# awards:
+ # - title: "Startup School"
+   # date: "2018-09-01"
+   # awarder: "YCombinator"
+   # summary: "Completed YCombinator's Startup School program on how to build a successful startup."
 # publications:
  # - name: "How to Build In-Plants, a Mesh-Connected Soil Monitoring System"
    # publisher: "Particle"
