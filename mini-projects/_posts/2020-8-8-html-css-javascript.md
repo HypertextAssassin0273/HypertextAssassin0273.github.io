@@ -25,19 +25,19 @@ accent_image:
   
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="/assets/img/mini-projects/slideshow/ppt-exp-1.png" style="width:100%">
+    <img src="/assets/img/mini-projects/slideshow/hmtl-css-javascript-exp-1.gif" style="width:100%">
     <div class="text">Arithmetic Calculator</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <img src="/assets/img/mini-projects/slideshow/ppt-exp-2.gif" style="width:100%">
+    <img src="/assets/img/mini-projects/slideshow/hmtl-css-javascript-exp-2.gif" style="width:100%">
     <div class="text">Flappy Bug Game</div>
   </div>
   
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <img src="/assets/img/mini-projects/slideshow/ppt-exp-3.gif" style="width:100%">
+    <img src="/assets/img/mini-projects/slideshow/hmtl-css-javascript-exp-3.gif" style="width:100%">
     <div class="text">Rigley Escape Game</div>
   </div>
   
