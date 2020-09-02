@@ -7,6 +7,10 @@ image:
   path: /assets/img/projects/subzero.jpg
 canonical_url: https://hackaday.com/2019/03/12/this-raspberry-pi-is-nasty/
 hide_image: false
+accent_color: '#4fb1ba'
+accent_image:
+  background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
+  overlay:    true
 ---
 
 A device that allows users to quickly and securely share files locally. 
