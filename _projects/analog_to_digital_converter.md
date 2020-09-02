@@ -6,6 +6,8 @@ image: /assets/img/mini-projects/dld-project.png
 links:
   - title: Project Report
     url: /assets/img/mini-projects/DLD-Project_Report.pdf
+  - title: Project Files
+    url: https://drive.google.com/drive/folders/1NrLGTFiU7suCcKFhZzEiBUxqf2bXYvZO?usp=sharing    
 caption: DLD Project Software Simulation
 description: >
     A simple DLD Project based on Software Simulation of Analog to Digital Converter, using Proteus 8.<br>
