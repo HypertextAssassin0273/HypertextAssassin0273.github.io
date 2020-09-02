@@ -1,4 +1,5 @@
 ---
+published: false
 layout: project
 title: 'Arduino Vending Machine'
 date: 23 Dec 2018
