@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HTML-CSS-JavaScript Web Apps
-image: /assets/img/mini-projects/html-css-javascript.png 
+image: /assets/img/mini-projects/html-css-javascript.gif
 caption: A collection of HTML-CSS-JavaScript based Web Programs
 accent_color: '#4fb1ba'
 accent_image:
