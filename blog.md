@@ -3,5 +3,5 @@
 published: false
 title: Blog
 menu: true
-order: 2
+order: 1
 ---
