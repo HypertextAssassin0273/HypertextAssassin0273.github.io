@@ -10,3 +10,6 @@ accent_image:
   overlay:    true
 ---
 [Certificate](/assets/img/certificates/certificate-of-completion-for-aviatrix-ace-associate.pdf)
+
+### Description: 
+Covers Cloud Networking 101, Basic Cloud Concepts & overview of differnet cloud providers.
