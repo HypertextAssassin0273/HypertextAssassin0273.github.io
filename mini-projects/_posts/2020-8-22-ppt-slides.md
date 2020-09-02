@@ -8,7 +8,11 @@ accent_image:
   background: 'linear-gradient(to bottom,#193747 0%,#233e4c 30%,#3c929e 50%,#d5d5d4 70%,#cdccc8 100%)'
   overlay:    true
 ---
-
+<head>
+  <style>
+    {% include styles/slideshow.scss %}
+  </style>  
+</head>  
 <body>
   <h4>Description:</h1>
   <p>Contains Latest Animated Presentations using Morph Transition & Zoom Feature, created on Microsoft PowerPoint 2019.</p>
