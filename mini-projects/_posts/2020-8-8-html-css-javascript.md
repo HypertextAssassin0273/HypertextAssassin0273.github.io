@@ -10,8 +10,9 @@ accent_image:
 ---
 #### Description:
 The main purpose of this project is to understand the synergy b/w html,css & javascript on github pages.
-#### Note:
-It includes CSS-Grids & JavaScript Frameworks too.
+Moreover, it includes CSS-Grids & JavaScript Frameworks too.
 
 [**Website Page**](https://hypertextassassin0273.github.io/html-css-javascript/) &nbsp;
 [**GitHub Repo**](https://github.com/HypertextAssassin0273/html-css-javascript)
+
+
