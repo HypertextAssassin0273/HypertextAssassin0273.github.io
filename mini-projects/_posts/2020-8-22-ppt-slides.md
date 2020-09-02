@@ -24,7 +24,7 @@ accent_image:
   
   <div class="mySlides fade">
     <div class="numbertext">1 / 9</div>
-    <img src="/assets/img/mini-projects/slideshow/ppt-exp-1.jpeg" style="width:100%">
+    <img src="/assets/img/mini-projects/slideshow/ppt-exp-1.png" style="width:100%">
     <div class="text">iSlide Add-In</div>
   </div>
   
