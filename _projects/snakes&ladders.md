@@ -7,7 +7,7 @@ image:
 screenshot: /assets/img/projects/snakes&ladders.png
 links:
   - title: Website
-    url: https://hypertextassassin0273.github.io/ModernSnakesAndLadders-PF_Project/
+    url: https://hypertextassassin0273.github.io/ModernSnakesAndLadders-PF_Project
   - title: Github
     url: https://github.com/HypertextAssassin0273/ModernSnakesAndLadders-PF_Project
 caption: C lang based PF-Project
