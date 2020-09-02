@@ -9,9 +9,6 @@ accent_image:
   overlay:    true
 ---
 
-[**Website Page**](https://hypertextassassin0273.github.io/html-css-javascript/) &nbsp;
-[**GitHub Repo**](https://github.com/HypertextAssassin0273/html-css-javascript)
-
 <head>
   <style>
     {% include styles/slideshow.scss %}
