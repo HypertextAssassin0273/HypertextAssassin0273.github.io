@@ -16,7 +16,7 @@ basics:
     
     <i title="Download" style="margin-bottom: 0.5rem;" class="icon-box-add faded"><strong>  :  </strong></i><a style="margin-bottom: 0.5rem;" href="/assets/Resume.pdf" class="external"><strong>Resume</strong></a>
     <br>
-    <i title="Download" class="icon-box-add faded"><strong>  :  </strong></i><a href="/assets/Personal_Statement.pdf" class="external"><strong>Personal Statement</strong></a>
+    <i title="Download" style="margin-bottom: 0.5rem;" class="icon-box-add faded"><strong>  :  </strong></i><a style="margin-bottom: 0.5rem;" href="/assets/Personal_Statement.pdf" class="external"><strong>Personal Statement</strong></a>
 
   location:
     address: ""
