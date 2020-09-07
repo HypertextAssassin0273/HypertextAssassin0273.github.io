@@ -14,9 +14,9 @@ basics:
     If you're interested in something within my skill-set, or would like to discuss something tech. related then, feel free to reach out.<br><br> 
     I'd love to talk.<br><br>
     
-    <i class="icon-box-add faded">  :  </i><a href="/assets/Resume.pdf" class="external"><strong>Resume</strong></a>
+    <i class="icon-box-add faded" style="margin-bottom: .5rem;"><strong>  :  </strong></i><a style="margin-bottom: .5rem;" href="/assets/Resume.pdf" class="external"><strong>Resume</strong></a>
     <br>
-    <i class="icon-box-add faded">  :  </i><a href="/assets/Personal_Statement.pdf" class="external"><strong>Personal Statement</strong></a>
+    <i class="icon-box-add faded" style="margin-bottom: .5rem;"><strong>  :  </strong></i><a style="margin-bottom: .5rem;" href="/assets/Personal_Statement.pdf" class="external"><strong>Personal Statement</strong></a>
 
   location:
     address: ""
