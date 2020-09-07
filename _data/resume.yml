@@ -5,6 +5,11 @@ basics:
   email: "shazaibahmed0000@gmail.com"
   phone: "+92-335-6678673"
   website: "https://hypertextassassin0273.github.io"
+  
+  <dt class="faded"> <span class="icon-box-add" title="Download"></span> <span class="sr-only">Download</span> </dt>
+  <dd class="bold"> <a href="https://hypertextassassin0273.github.io/assets/Resume.pdf" class="external no-print-link url u-url" property="sameAs">Resume</a> </dd> <dt class="faded"> <span class="icon-box-add" title="Download"></span> <span class="sr-only">Download</span> </dt>
+  <dd class="bold"> <a href="https://hypertextassassin0273.github.io/assets/Personal_Statement.pdf" class="external no-print-link url u-url" property="sameAs">Personal Statement</a> <br><br></dd>
+  
   summary: >
     I'm an aspiring student who seeks to learn something new every day. Currently, undergraduate at NUCES FAST-Karachi in BS(CS). <br><br>
     My interests include Cyber-Security, Artificial Intelligence, Internet of Things, Defense, & Web Development. 
@@ -18,11 +23,6 @@ basics:
     <i class="icon-box-add"></i><strong>  :  </strong><a href="/assets/Personal_Statement.pdf"><strong>Personal Statement</strong></a>
 
   location:
-    
-    <dt class="faded"> <span class="icon-box-add" title="Download"></span> <span class="sr-only">Download</span> </dt>
-    <dd class="bold"> <a href="https://hypertextassassin0273.github.io/assets/Resume.pdf" class="external no-print-link url u-url" property="sameAs">Resume</a> </dd> <dt class="faded"> <span class="icon-box-add" title="Download"></span> <span class="sr-only">Download</span> </dt>
-    <dd class="bold"> <a href="https://hypertextassassin0273.github.io/assets/Personal_Statement.pdf" class="external no-print-link url u-url" property="sameAs">Personal Statement</a> <br><br></dd>
-    
     address: ""
     postalCode: "74700"
    # region: "North Nazimabad"
