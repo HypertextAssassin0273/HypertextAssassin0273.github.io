@@ -13,7 +13,7 @@ basics:
     If you're interested in something within my skill-set, or would like to discuss something tech. related then, feel free to reach out.<br><br> 
     I'd love to talk.<br><br>
     
-    [Download my Resume here](/assets/Resume.pdf)
+    <a href="/assets/Resume.pdf"><i class="fa fa-download"></i> Resume</a>
 
   location:
     address: ""
