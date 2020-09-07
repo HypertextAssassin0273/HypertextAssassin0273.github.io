@@ -13,9 +13,9 @@ basics:
     If you're interested in something within my skill-set, or would like to discuss something tech. related then, feel free to reach out.<br><br> 
     I'd love to talk.<br><br>
     
-    <i class="icon-box-add"></i><strong>  :  </strong><a href="/assets/Resume.pdf"><strong>Resume</strong></a>
-    <br>
-    <i class="icon-box-add"></i><strong>  :  </strong><a href="/assets/Personal_Statement.pdf"><strong>Personal Statement</strong></a>
+    <dt class="faded"> <span class="icon-box-add" title="Download"></span> <span class="sr-only">Download</span> </dt>
+<dd class="bold"> <a href="https://hypertextassassin0273.github.io/assets/Resume.pdf" class="external no-print-link url u-url" property="sameAs">Resume</a> </dd> <dt class="faded"> <span class="icon-box-add" title="Download"></span> <span class="sr-only">Download</span> </dt>
+<dd class="bold"> <a href="https://hypertextassassin0273.github.io/assets/Personal_Statement.pdf" class="external no-print-link url u-url" property="sameAs">Personal Statement</a> <br><br></dd>
 
   location:
     address: ""
