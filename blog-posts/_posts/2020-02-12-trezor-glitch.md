@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Kraken Security Labs Can Now Voltage Glitch Trezor Wallet Cryptocurrency Away
+title: Beware! Voltage Glitch Can Bypass Your Trezor Hardware Wallets
 description: >
-  Beware! Voltage glitching can bypass your Trezor hardware wallets
+  Using voltage glitching, Kraken Security Labs has found a way to crack the encrypted seeds in Trezor cryptocurrency hardware wallets.
 image:  
   path: /assets/img/blog/trezorglitch.png
 canonical_url: http://bit.ly/trezor-glitch
