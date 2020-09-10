@@ -12,4 +12,5 @@ accent_image:
 #### Description: 
 Covers Cloud Networking 101, Basic Cloud & Multi-Cloud Concepts, Overview of different Cloud Providers, Cloud Networking Problems & Solutions by Aviatrix.
 
-<a href="/assets/img/certificates/certificate-of-completion-for-aviatrix-ace-associate.pdf" class="external"><strong>Certificate</strong></a>
+<a href="/assets/img/certificates/ace-associate-course-completion-certificate.pdf" class="external"><strong>Course Completion Certificate</strong></a>
+<a href="/assets/img/certificates/ace-multi-cloud-networking-associate-certificate.pdf" class="external"><strong>ACE Associate Certificate</strong></a>
