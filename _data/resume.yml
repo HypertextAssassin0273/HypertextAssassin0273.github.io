@@ -44,7 +44,8 @@ basics:
      # - "Utilized Software Defined Radio to spawn a custom 4GLTE Base station. Created an operation GUI for users to forward traffic, track logs and maintain Command and Control channels"
 education:
   - institution: >
-      National University of Computer & Emerging Sciences (FAST) - Karachi
+      <a href="https://khi.nu.edu.pk">National University of Computer & Emerging Sciences (FAST) - Karachi</a>
+      
     area: "Computer Science"
     studyType: "Bachelor"
     startDate: "2019-07-01"
