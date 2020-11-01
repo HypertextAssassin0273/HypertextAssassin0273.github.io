@@ -43,7 +43,8 @@ basics:
      # - "Responsible for architecting, implementing and testing multiple software and firmware solutions for custom hardware."
      # - "Utilized Software Defined Radio to spawn a custom 4GLTE Base station. Created an operation GUI for users to forward traffic, track logs and maintain Command and Control channels"
 education:
-  - institution: "National University of Computer & Emerging Sciences (FAST) - Karachi"
+  - institution: >
+      National University of Computer & Emerging Sciences (FAST) - Karachi
     area: "Computer Science"
     studyType: "Bachelor"
     startDate: "2019-07-01"
