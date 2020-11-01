@@ -44,13 +44,15 @@ basics:
      # - "Utilized Software Defined Radio to spawn a custom 4GLTE Base station. Created an operation GUI for users to forward traffic, track logs and maintain Command and Control channels"
 education:
   - institution: >
-      <a href="https://khi.nu.edu.pk">National University of Computer & Emerging Sciences (FAST) - Karachi</a>
-      
+      <a href="https://khi.nu.edu.pk">National University of Computer & Emerging Sciences, Karachi</a>
+ 
     area: "Computer Science"
     studyType: "Bachelor"
     startDate: "2019-07-01"
    # endDate: "2023-05-01"
-  - institution: "Govt. Degree Science & Commerce College, Gulshan-e-Iqbal"
+  - institution: >
+      <a href="https://www.facebook.com/GovtDegreeCollegeGulshanEIqbalBlock7">Govt. Degree Science & Commerce College, Gulshan-e-Iqbal</a>
+  
     area: "Pre-Engineering"
     studyType: "FSc"
     startDate: "2017-06-01"
