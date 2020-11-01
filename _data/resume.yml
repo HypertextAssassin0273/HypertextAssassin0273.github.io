@@ -48,10 +48,10 @@ education:
     studyType: "Bachelor"
     startDate: "2019-07-01"
    # endDate: "2023-05-01"
-  - institution: "Govt. Degree Science & Commerce College, Gulshan-e-Iqbal, Block-7"
+  - institution: "Govt. Degree Science & Commerce College, Gulshan-e-Iqbal"
     area: "Pre-Engineering"
     studyType: "FSc"
-    startDate: "2018-06-01"
+    startDate: "2017-06-01"
     endDate: "2019-4-01"
 # awards:
  # - title: "Startup School"
