@@ -1,15 +1,15 @@
 ---
 layout: project
-title: 'ModernSnakes&Ladders'
+title: 'Modern Snakes & Ladders'
 date: 18 May 2020
 image:  
   path: /assets/img/projects/snakes&ladders.png
 screenshot: /assets/img/projects/snakes_and_ladders.png
 links:
   - title: Website
-    url: https://hypertextassassin0273.github.io/ModernSnakesAndLadders-PF_Project
+    url: https://hypertextassassin0273.github.io/Modern_Snakes_And_Ladders-PF_Project
   - title: Github
-    url: https://github.com/HypertextAssassin0273/ModernSnakesAndLadders-PF_Project
+    url: https://github.com/HypertextAssassin0273/Modern_Snakes_And_Ladders-PF_Project
 caption: C language based PF-Project
 description: >
     A simple C language project which covers most of the basics & includes some unique features, using DevC++.<br>
