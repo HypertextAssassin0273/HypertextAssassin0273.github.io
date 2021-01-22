@@ -2,10 +2,10 @@
 layout: project
 title: Analog to Digital Converter
 date: 4 June 2020
-image: /assets/img/mini-projects/dld-project.png 
+image: /assets/img/projects/dld-project.png 
 links:
   - title: Project Report
-    url: /assets/img/mini-projects/DLD-Project_Report.pdf
+    url: /assets/img/projects/DLD-Project_Report.pdf
   - title: Project Files
     url: https://drive.google.com/drive/folders/1NrLGTFiU7suCcKFhZzEiBUxqf2bXYvZO?usp=sharing    
 caption: DLD Project Software Simulation
