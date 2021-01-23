@@ -2,7 +2,7 @@
 layout: project
 title: Sudoku Solver & Game
 date: 27 Dec 2020
-image: /assets/img/projects/coal-project.png 
+image: /assets/img/projects/coal-project.gif 
 links:
   - title: GitHub
     url: https://github.com/HypertextAssassin0273/Sudoku_Solver_And_Game-COAL_Project
