@@ -75,20 +75,31 @@ skills:
       - "HTML"
       - "CSS"
       - "Javascript"
+  - name: "Mutli-Cloud Networking"
+    level: "Amateur"
+    keywords:
+      - "Cloud Security Solutions"
+      - "Cloud Networking Solutions"
 languages:
   - language: "C"
     fluency: "full-professional-proficiency"
   - language: "C++"
-    fluency: "professional working proficiency"
+    fluency: "full-professional-proficiency"
   - language: "Javascript"
     fluency: "elementary proficiency"  
-  # - language: "Assembly"
-   # fluency: "limited-working-proficiency"
+  - language: "Assembly"
+    fluency: "limited-working-proficiency"
+   # fluency: "professional working proficiency"
 interests:
   - name: "Cyber-Security"
     keywords:
       - "Physical Security"
       - "Close Access Technology"
+  - name: "Cloud Computing"
+    keywords:
+      - "Mutli-Cloud Networking"
+      - "Cloud Security"
+      - "Cloud Hybrid Solutions"
   - name: "Internet of Things"
     keywords:
       - "Wireless Embeded Technology"
