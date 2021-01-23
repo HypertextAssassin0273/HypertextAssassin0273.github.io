@@ -3,8 +3,8 @@ layout: project
 title: 'SwiFT Store Management'
 date: 21 Dec 2020
 image:  
-  path: /assets/img/projects/snakes&ladders.png
-screenshot: /assets/img/projects/snakes_and_ladders.png
+  path: /assets/img/projects/swift_store_management.png
+screenshot: /assets/img/projects/swift_store_management.png
 links:
   - title: Website
     url: https://hypertextassassin0273.github.io/SwiFT_Store_Management-OOP_Project
