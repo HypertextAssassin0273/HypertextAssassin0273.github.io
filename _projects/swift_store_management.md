@@ -8,7 +8,7 @@ screenshot: /assets/img/projects/swift_store_management.png
 links:
   - title: Website
     url: https://hypertextassassin0273.github.io/SwiFT_Store_Management-OOP_Project
-  - title: Github
+  - title: GitHub
     url: https://github.com/HypertextAssassin0273/SwiFT_Store_Management-OOP_Project
 caption: C++ language based OOP-Project
 description: >
