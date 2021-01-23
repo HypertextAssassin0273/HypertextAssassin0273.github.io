@@ -3,9 +3,9 @@ layout: project
 title: Sudoku Solver & Game
 date: 27 Dec 2020
 image: /assets/img/projects/coal-project.png 
-links: https://github.com/HypertextAssassin0273/Sudoku_Solver_And_Game-COAL_Project
+links:
   - title: Project Files
-    url:    
+    url: https://github.com/HypertextAssassin0273/Sudoku_Solver_And_Game-COAL_Project
 caption: Assembly language based COAL Project
 description: >
     A COAL based Sudoku Game built with native approach, using Irvine32 lib.<br>
