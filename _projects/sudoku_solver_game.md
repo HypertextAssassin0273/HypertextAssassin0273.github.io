@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Sudoku Solver & Game
+title: Sudoku Solver Game
 date: 27 Dec 2020
 image: /assets/img/projects/coal-project.gif 
 links:
