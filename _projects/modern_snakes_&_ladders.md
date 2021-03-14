@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 'Modern Snakes & Ladders'
+title: 'Modern Snakes & Ladders Game'
 date: 18 May 2020
 image:  
   path: /assets/img/projects/snakes&ladders.png
