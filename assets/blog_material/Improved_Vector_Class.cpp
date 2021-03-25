@@ -588,13 +588,13 @@ test_case_5(){
 	V1 obj={123,321};//i.e. lvalue obj
 	//i.e. using as Jagged Array
 	Vector<V2> vec_3d={	
-						{	
+						V2{	
 							V1{1,2,3,4},
 					   		V1{11,22,33},
 							V1{111,222,333,444},
 						 	std::move(obj)							
 					    },
-					   	{	
+					   	V2{	
 						   	V1{5,6,7,8},
 						  	V1{55,66,77,88},
 						  	V1{555,666,777,888}
