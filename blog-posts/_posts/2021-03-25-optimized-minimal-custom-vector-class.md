@@ -18,7 +18,7 @@ So, **STL::Vector** initially only allocates & **reserves** the space for your o
 
 Now, here comes the role of [**placement new**](https://www.geeksforgeeks.org/placement-new-operator-cpp/#:~:text=Placement%20new%20is%20a%20variation,object%20in%20the%20passed%20memory.) operator which basically takes the **address of buffer** & constructs the object of given structure or class on that position of buffer (i.e. we usually take **array of char** type to create buffer, ring any bells? well, some Assembly language concepts jumps out here).
 
-After allocation & construction of these objects, comes the **accessing** part. Well, It was kind of tricky for me but I managed to find out (thanks to stackoverflow) that the objects created by **placement new** operator maintains like **void** type status. Means you can access them by **type-casting** the **buffer-pointer** to the type of objects & voila here you go, ready to use the Optimized Vector Class.
+After allocation & construction of these objects, comes the **accessing** part. Well, It was kind of tricky for me but I managed to find out (thanks to stackoverflow) that the objects created by **placement new** operator maintains like **void** type status. Means you can access them by **type-casting** the **buffer-pointer** to the type of **objects** & voila here you go, ready to use the Optimized Vector Class.
 
 **P.S:** For better understanding, I have provided a lot of test-cases in attached [**Source code**](/assets/blog_material/Improved_Vector_Class.cpp) (which are also well-commented) & they almost cover all of the use-cases of my Custom Vector Class. If there is anything ambiguous, feel free to reach out. Peace!!!
 
