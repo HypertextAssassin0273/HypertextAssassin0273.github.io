@@ -8,10 +8,10 @@ accent_image:
   overlay:    true
 ---
 
-**Static websites** are basically pure **HTML** files with additional **JavaScript** and **CSS** files to make the page more colorful and dynamic in the browser. But what the browser downloads from the server is pure file-based.
+**Static websites** are basically pure **HTML** files with additional **JavaScript** and **CSS** files to make the page more colorful and dynamic in the browser. But what the **browser** downloads from the **server** is pure file-based.
 
-In **Dynamic websites**, there are no **HTML files** but the HTML is generated on the **fly** by the **server** by executing some code that generates the HTML. This HTML-generating code can be written in **Python, PHP, ASP .NET, ColdFusion, Java, C++** or any other programming language. And this is why it's called dynamic as the HTML generating code can create custom HTML for every visitor and every visit, while **static HTML** will be the same for all visitors.
+In **Dynamic websites**, there are no **HTML files** but the HTML is generated on the **fly** by the **server** by executing some code that generates the HTML. This HTML-generating code can be written in **Python, PHP, ASP .NET, ColdFusion, Java, C++** or any other programming language. And this is why it's called dynamic as the HTML generating code can create custom HTML for every **visitor** and every visit, while **Static HTML** will be the same for all visitors.
 
-Both can be **responsive sites**, though. And the **JavaScript** they can both call can change the content of the page at the browser. Some sites can even mix both **static & dynamic pages**, if needed.
+Both can be **responsive sites**, though. And the **JavaScript** they can both call can change the **content of page** at the browser. Some sites can even mix both **Static & Dynamic pages**, if needed.
 
-Many HTML generating code will contain some HTML templates inside with **additional markup** indicating where the server will have to fill in some content. But there are some JavaScript libraries that will do this inside the browser so static and dynamic sites can look extremely similar.
+Many HTML generating code will contain some HTML templates inside with **additional markup** indicating where the server will have to fill in some content. But there are some **JavaScript libraries** that will do this inside the browser so Static and Dynamic Sites can look extremely similar.
