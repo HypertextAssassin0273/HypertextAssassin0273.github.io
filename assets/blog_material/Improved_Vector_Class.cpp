@@ -599,7 +599,7 @@ test_case_5(){
 						  	V1{55,66,77,88},
 						  	V1{555,666,777,888}
 					  	}
-					};//i.e. size (3Dx2Dx1D): 2x3x4
+					};//i.e. size (3Dx2Dx1D): 2x(3,4)x4
 	
 	for(const auto &__it:vec_3d){
 		cout<<"\n2D Vector "<<(&__it-&vec_3d[0])+1<<":"<<endl;
