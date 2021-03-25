@@ -14,4 +14,4 @@ In **Dynamic websites**, there are no **HTML files** but the HTML is generated o
 
 Both can be **responsive sites**, though. And the **JavaScript** they can both call can change the **content of page** at the browser. Some sites can even mix both **Static & Dynamic pages**, if needed.
 
-Many HTML generating code will contain some HTML templates inside with **additional markup** indicating where the server will have to fill in some content. But there are some **JavaScript libraries** that will do this inside the browser so Static and Dynamic Sites can look extremely similar.
+Many HTML generating code will contain some **HTML templates** inside with **additional markup** indicating where the server will have to fill in some content. But there are some **JavaScript libraries** that will do this inside the browser so Static and Dynamic Sites can look extremely similar.
