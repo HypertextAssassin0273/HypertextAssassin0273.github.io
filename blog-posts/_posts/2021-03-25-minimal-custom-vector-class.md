@@ -5,9 +5,6 @@ description: >
   A minimal approach to create Custom Vector Class, covering 'Rule of Five' & implementing the concept of 'Mapping Objects on Dynamically Allocated Buffer'.
 image:  
   path: /assets/img/blog/STL_Vector_Class.jpg
-links:
-  title: .cpp File
-  url: https://www.linkedin.com/in/shazaibahmed0273/
 hide_image: false
 accent_color: '#4fb1ba'
 accent_image:
@@ -24,4 +21,6 @@ Now, here comes the role of **'new placement operator'** which basically takes t
 
 After allocation & construction of these objs, comes the **accessing** part. Well, It was kind of tricky for me but I managed to find out (thanks to stackoverflow) that the objs created by **'new placement'** operator maintains like **'void'** type status. Means you can access them by type-casting the buffer-pointer to the type of objs & voila here you go, ready to use the Optimized Vector Class.
 
-**P.S:** For better understanding, I have provided a lot of test-cases in below .cpp file (which are also well-commented) & they almost cover all of the use-cases of my Custom Vector Class. If there is anything ambiguous, plz mention your problem in comments. I'll be really happy to help u guys out. Peace!!!
+**P.S:** For better understanding, I have provided a lot of test-cases in attached [**.cpp file**](/assets/blog_material/Improved_Vector_Class.cpp) (which are also well-commented) & they almost cover all of the use-cases of my Custom Vector Class. If there is anything ambiguous, plz mention your problem in comments. I'll be really happy to help u guys out. Peace!!!
+
+[**Link to .cpp File**](/assets/blog_material/Improved_Vector_Class.cpp)
