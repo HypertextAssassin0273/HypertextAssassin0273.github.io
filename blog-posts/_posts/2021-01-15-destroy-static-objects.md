@@ -2,7 +2,7 @@
 layout: post
 title: Deallocate/Destroy Static Variables & Objects:-
 description: >
-  A simple technique to deallocate static variables & objects.
+  A simple technique to manually deallocate/destroy static variables & objects.
 hide_image: false
 accent_color: '#4fb1ba'
 accent_image:
