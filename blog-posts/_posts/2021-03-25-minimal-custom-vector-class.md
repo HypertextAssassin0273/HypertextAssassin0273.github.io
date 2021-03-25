@@ -21,5 +21,4 @@ Now, here comes the role of **'new placement operator'** which basically takes t
 
 After allocation & construction of these objs, comes the **accessing** part. Well, It was kind of tricky for me but I managed to find out (thanks to stackoverflow) that the objs created by **'new placement'** operator maintains like **'void'** type status. Means you can access them by type-casting the buffer-pointer to the type of objs & voila here you go, ready to use the Optimized Vector Class.
 
-**P.S:** For better understanding, I have provided a lot of test-cases in below .cpp fil
-e (which are also well-commented) & they almost cover all of the use-cases of my Custom Vector Class. If there is anything ambiguous, plz mention your problem in comments. I'll be really happy to help u guys out. Peace!!!
+**P.S:** For better understanding, I have provided a lot of test-cases in below .cpp file (which are also well-commented) & they almost cover all of the use-cases of my Custom Vector Class. If there is anything ambiguous, plz mention your problem in comments. I'll be really happy to help u guys out. Peace!!!
