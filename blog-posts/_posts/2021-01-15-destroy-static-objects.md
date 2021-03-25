@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deallocate/Destroy Static Variables & Objects:-
+title: Deallocate/Destroy Static Variables & Objects
 description: >
   A simple technique to manually deallocate/destroy static variables & objects.
 hide_image: false
