@@ -584,7 +584,7 @@ test_case_4(){
 test_case_5(){
 	cout<<"\nJagged Vector Demonstration:-";
 	//i.e. passing 'Vector<int>' in 'counted' to get track/summary of its resources
-	typedef counted<Vector<int>> V1; typedef counted<Vector<Vector<int>>> V2;
+	typedef counted<Vector<int>> V1; typedef Vector<V1> V2;
 	V1 obj={123,321};//i.e. lvalue obj
 	//i.e. using as Jagged Array
 	Vector<V2> vec_3d={	
