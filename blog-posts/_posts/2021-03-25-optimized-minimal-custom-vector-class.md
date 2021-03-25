@@ -14,7 +14,7 @@ Hey Lads, so I've been working on Custom approach for improving & optimizing the
 
 Now, after implementing both of these Rules, I realized that still my Vector class was inefficient to carry out larger operations. So, I did my further research & found out that these Vectors basically work by separate **Allocation** & **Construction**. Yes, you heard it right. **Allocation** & **Construction** are two separate concepts which you normally implement both at same time by declaring **object** or **array of objects** with **'new/malloc'** keyword.
 
-So, **STL::Vector** initially only allocates & **reserves** the space for your objects & holds the construction part (i.e. you do this by using reserve **modifier**), and when user decides to use this space (i.e. by using push_back, emplace_back or resize modifier), the Vector Constructs the objects on that Dynamically allocated space (called **Buffer** on **Heap**).
+So, **STL::Vector** initially only allocates & **reserves** the space for your objects & holds the construction part (i.e. you do this by using reserve **modifier**), and when user decides to use this space (i.e. by using push_back, emplace_back or resize modifier), the Vector constructs the objects on that Dynamically allocated space (called **Buffer** on **Heap**).
 
 Now, here comes the role of [**placement new**](https://www.geeksforgeeks.org/placement-new-operator-cpp/#:~:text=Placement%20new%20is%20a%20variation,object%20in%20the%20passed%20memory.) operator which basically takes the **address of buffer** & constructs the object of given structure or class on that position of buffer (i.e. we usually take **array of char** type to create buffer, ring any bells? well, some Assembly language concepts jumps out here).
 
