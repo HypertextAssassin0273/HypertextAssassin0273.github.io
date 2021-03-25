@@ -16,7 +16,7 @@ Now, after implementing both of these Rules, I realized that still my Vector cla
 
 So, **STL::vector** initially only allocates & **reserves** the space for your objects & holds the **construction** part (i.e. you do this by using reserve modifier), and when user decides to use this space (i.e. by using push_back, emplace_back or resize modifier), the Vector Constructs the objects on that Dynamically allocated space (called **Buffer** on **Heap**).
 
-Now, here comes the role of **'new placement operator'** which basically takes the address of buffer & constructs the object of given structure or class on that position of buffer (i.e. we usually take array of **'char'** type to create buffer, ring any bells? well, some **Assembly** language concepts jumps out here).
+Now, here comes the role of **'new placement'** operator which basically takes the address of buffer & constructs the object of given structure or class on that position of buffer (i.e. we usually take array of **'char'** type to create buffer, ring any bells? well, some **Assembly** language concepts jumps out here).
 
 After allocation & construction of these objects, comes the **accessing** part. Well, It was kind of tricky for me but I managed to find out (thanks to stackoverflow) that the objects created by **'new placement'** operator maintains like **'void'** type status. Means you can access them by **type-casting** the **buffer-pointer** to the type of objects & voila here you go, ready to use the Optimized Vector Class.
 
