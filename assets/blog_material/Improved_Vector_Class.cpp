@@ -4,7 +4,7 @@ using namespace std;
 /* Improved Custom Vector Class (minimal STL Vector) */
 /*  Highlights:
 	1) Main emphasis on 'rule of five' (move semantics applicable with C++11 settings)
-	2) Elements are mapped/constructed on dynamically allocated buffer (i.e. use of 'new placement' operator)
+	2) Elements are mapped/constructed on dynamically allocated buffer (i.e. use of 'placement new' operator)
 	3) Safe when accessing elements with accessors (Exception somewhat handled)
 	4) Perfect container for other classes & itself (i.e. 2D,3D,... Nested Vector)
 	5) All neccessary STL Vector class 'modifiers' & 'iterators' are provided
