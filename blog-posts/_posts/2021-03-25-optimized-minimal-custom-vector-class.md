@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Minimal Custom Vector Class
+title: Optimized Minimal Custom Vector Class
 description: >
-  A minimal approach to create Custom Vector Class, covering 'Rule of Five' & implementing the concept of 'Mapping Objects on Dynamically Allocated Buffer'.
+  A minimal approach to create Optimized Custom Vector Class, covering 'Rule of Five' & implementing the concept of 'Mapping Objects on Dynamically Allocated Buffer'.
 image:  
   path: /assets/img/blog/STL_Vector_Class.jpg
 hide_image: false
