@@ -10,7 +10,7 @@ accent_image:
   overlay:    true
 ---
 
-We all know how **dynamic** variables or objects work & can be destroyed after utilizing them (i.e. by using **delete** keyword). But ever wondered how **static** (normal) variables or objects can be destroyed after utilizing them?
+We all know how **Dynamic** variables or objects work & can be destroyed after utilizing them (i.e. by using **delete** keyword). But ever wondered how **static** (normal) variables or objects can be destroyed after utilizing them?
 
 Well it's simple. Since, their **life-span** depends on the **scope**. So, you can define them inside that scope (i.e. by simply using a pair of parenthesis) & they will be destroyed after the program jumps out of that scope.
 
