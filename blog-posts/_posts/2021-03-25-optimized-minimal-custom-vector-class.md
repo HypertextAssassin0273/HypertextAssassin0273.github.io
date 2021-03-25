@@ -20,6 +20,6 @@ Now, here comes the role of [**placement new**](https://www.geeksforgeeks.org/pl
 
 After allocation & construction of these objects, comes the **accessing** part. Well, It was kind of tricky for me but I managed to find out (thanks to stackoverflow) that the objects created by **placement new** operator maintains like **void** type status. Means you can access them by **type-casting** the **buffer-pointer** to the type of **objects** & voila here you go, ready to use the Optimized Vector Class.
 
-**P.S:** For better understanding, I have provided a lot of test-cases in attached [**Source code**](/assets/blog_material/Improved_Vector_Class.cpp) (which are also well-commented) & they almost cover all of the use-cases of my Custom Vector Class. If there is anything ambiguous, feel free to reach out. Peace!!!
+**P.S:** For better understanding, I have provided a lot of test-cases in attached [**Source code**](/assets/blog_material/Improved_Vector_Class.cpp) (which are also well-commented) & they almost cover all of the use-cases of my Custom Vector Class. Also, I have used [**Instance-Counter**](https://tristanbrindle.com/posts/beware-copies-initializer-list) Class in some test-cases to keep & see the track of Constructions & Destructions of objs in Vector Class. If there is anything ambiguous, feel free to reach out. Peace!!!
 
 [**Source Code Link**](/assets/blog_material/Improved_Vector_Class.cpp)
