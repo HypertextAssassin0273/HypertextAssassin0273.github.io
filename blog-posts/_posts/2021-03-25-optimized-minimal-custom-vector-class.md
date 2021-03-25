@@ -10,7 +10,7 @@ accent_image:
   overlay:    true
 ---
 
-Hey Lads, so I've been working on Custom approach for improving & optimizing **STL::vector** (contiguous) container. Also recently, I shared 2 posts in this regard to improve Vector class by implementing **'Rule of Three' (covering copy- semantics)** & sharing an article to implement the [**'Rule of Five' (covering move- semantics)**](https://www.internalpointers.com/post/c-rvalue-references-and-move-semantics-beginners).
+Hey Lads, so I've been working on Custom approach for improving & optimizing **STL::vector** (contiguous) container. Also recently, I shared 2 posts in this regard to improve Vector class by implementing **'Rule of Three' (covering copy- semantics)** & further [**'Rule of Five' (covering move- semantics)**](https://www.internalpointers.com/post/c-rvalue-references-and-move-semantics-beginners).
 
 Now, after implementing both of these Rules, I realized that still my Vector class was inefficient to carry out larger operations. So, I did my further research & found out that these Vectors basically work by separate **Allocation** & **Construction**. Yes, you heard it right. Allocation & Construction are 2 separate concepts which you normally implement both at same time by declaring object/array of objs with **'new/malloc'** keyword.
 
