@@ -6,7 +6,7 @@ description: >
 image:  
   path: /assets/img/blog/STL_Vector_Class.jpg
 links:
-  title: cpp File
+  title: .cpp File
   url: https://github.com/HypertextAssassin0273/HypertextAssassin0273.github.io/blob/master/assets/blog_material/Improved_Vector_Class.cpp
 hide_image: false
 accent_color: '#4fb1ba'
