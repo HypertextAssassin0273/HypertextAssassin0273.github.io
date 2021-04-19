@@ -20,6 +20,6 @@ The working concept is simple. Each time we want to pop a node, we do not deallo
 
 But, here comes another problem, the program will gradually increase in size as its not releasing nodes/memory on the back-end. So I came with a solution that if size of Garbage Collector increases to **max_capacity** (i.e. variable) then it deallocates the **half of the total nodes** currently present in Garbage Collector.
 
-**P.S:** In Doubly Linked List class, this Garbage Collector works even more efficiently as each time a **class object** of a type gets destroyed, its' nodes are transferred to Garbage Collector at **O(1)** Complexity, whereas in Singly, its **O(n)**.
+**P.S:** In **Doubly linked list** class, this Garbage Collector works even more efficiently as each time a **class object** of a type gets destroyed, its' nodes are transferred to Garbage Collector at **O(1)** Complexity, whereas in **Singly**, its **O(n)**.
 
 [**Source Code Folder Link**](https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/Native_Data_Structures/Node_Structures)
