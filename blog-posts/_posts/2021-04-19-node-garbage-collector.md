@@ -22,6 +22,6 @@ But, here comes another problem, the program will gradually increase in size as 
 
 **Note:** In **Doubly linked list** class, this Garbage Collector works even more efficiently as each time a **class object** of a type gets destroyed, its' nodes are transferred to Garbage Collector at **O(1)** Complexity, whereas in **Singly**, its **O(n)**.
 
-**P.S:** Below is the attached **Source Code Folder Link** for Singly & Doubly linked-list classes. If there is anything ambiguous, feel free to reach out. Peace!!!
+**P.S:** Below is the attached **Source Code Folder** for Singly & Doubly linked-list classes. If there is anything ambiguous, feel free to reach out. Peace!!!
 
 [**Source Code Folder Link**](https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/Native_Data_Structures/Node_Structures)
