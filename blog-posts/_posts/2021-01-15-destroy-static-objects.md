@@ -16,6 +16,6 @@ Well it's simple. Since, their **life-span** depends on the **scope**. So, you c
 
 This technique comes very handy when your program contains too many static variables & their use is very short in the entire program.
 
-**P.S:** Attached [**Source Code**](/assets/blog_material/Static_Obj_Manual_Destruction.cpp) is an example which elaborates this more deeply. Run its **.exe** file & then compare the output with code to understand thoroughly. Hope you guys like it. Peace!!!
+**P.S:** Attached **Source Code Link** is an example which elaborates this more deeply. Run its **.exe** file & then compare the output with code to understand thoroughly. Hope you guys like it. Peace!!!
 
 [**Source Code Link**](/assets/blog_material/Static_Obj_Manual_Destruction.cpp)
