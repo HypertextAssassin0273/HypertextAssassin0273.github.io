@@ -2,7 +2,7 @@
 layout: post
 title: Node Garbage Collector
 description: >
-  bbb
+  A clean approach to optimize Node Structures, by implementing the concept of Garbage Collectors in C++.
 hide_image: false
 accent_color: '#4fb1ba'
 accent_image:
