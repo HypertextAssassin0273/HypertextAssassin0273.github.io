@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Node Garbage Collector in C++
+title: Node Garbage Collector
 description: >
   bbb
 hide_image: false
