@@ -16,7 +16,7 @@ After playing with these structures, I realized that they perform some very expe
 
 Recently, I found out that **Java** has the concept of **Garbage Collectors** for such scenarios. So, I thought why not implement in **C++**? And then, I added this really cool concept in my node classes. Also, it's really powerful technique to boost your program for long run.
 
-The working Concept is simple. Each time we want to pop a node, we do not deallocate the node/memory. Instead we transfer it to a **static Garbage Collector**. So, later if someone wants to push a **new node**, we can reuse that transferred node from Garbage Collector. In this way, we don't have to deal with extra **OS requests** (I.e. using **new/ delete** keywords).
+The working concept is simple. Each time we want to pop a node, we do not deallocate the node/memory. Instead we transfer it to a **static Garbage Collector**. So, later if someone wants to push a **new node**, we can reuse that transferred node from Garbage Collector. In this way, we don't have to deal with extra **OS requests** (I.e. using **new/ delete** keywords).
 
 But, here comes another problem, the program will gradually increase in size as its not releasing nodes/memory on the back-end. So I came with a solution that if size of Garbage Collector increases to **max_capacity** (i.e. variable) then it deallocates the **half of the total nodes** currently present in GC.
 
