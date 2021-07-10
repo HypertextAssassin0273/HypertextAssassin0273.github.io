@@ -19,4 +19,4 @@ However, if we used pointer type to store these 3 objects inside the vector, thi
 
 This technique is very effective specially when you have to be very careful of stack-memory in **large-scale** projects.
 
-**P.S:** If you have any ambiguity in understanding the concept, please watch this [**Reference Video**](https://youtu.be/j0_u26Vpb4w?t=1651). Peace!
+**P.S:** If you have any ambiguity in understanding the concept, please watch this [**reference video**](https://youtu.be/j0_u26Vpb4w?t=1651). Peace!
