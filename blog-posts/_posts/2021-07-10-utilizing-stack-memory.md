@@ -16,6 +16,6 @@ For instance, if we store 3 **integers** inside a vector, this will cost us 12 b
 
 However, if we used pointer type to store these 3 objects inside the vector (using **new** keyword), this will only reserve 24 bytes inside vector (as each pointer costs us 8 bytes **irrespective of type**, so total 3x8=24 bytes), while additional 30,000 bytes in **heap-memory**. Now, we can easily store a large amount of these heavy-weight objects inside vector or any other **contiguous-container**.
 
-This technique becomes very handy when you need to allocate heavy resources in **large-scale** projects.
+This technique becomes very handy when you need to allocate heavy resources through contiguous-container in **large-scale** projects.
 
 **P.S:** If you have any ambiguity in understanding the concept, please watch this [**reference video**](https://youtu.be/j0_u26Vpb4w?t=1651). Peace!
