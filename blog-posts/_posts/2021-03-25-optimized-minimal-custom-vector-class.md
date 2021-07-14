@@ -16,7 +16,7 @@ Now, after implementing both of these Rules, I realized that still my Vector cla
 
 So, **STL::Vector** initially only allocates & **reserves** the space for your objects & holds the construction part (i.e. you do this by using reserve **modifier**), and when user decides to use this space (i.e. by using push_back, emplace_back or resize modifier), the Vector constructs the objects on that **dynamically** allocated space (called **Buffer** on **Heap**).
 
-Now, here comes the role of [**placement new**](https://www.geeksforgeeks.org/placement-new-operator-cpp/#:~:text=Placement%20new%20is%20a%20variation,object%20in%20the%20passed%20memory.) operator which basically takes the **address of buffer** & constructs the object of given structure or class on that position of buffer (i.e. we usually take **array of char** type to create buffer, ring any bells? well, some Assembly language concepts jumps out here).
+Now, here comes the role of [**placement new**](https://www.geeksforgeeks.org/placement-new-operator-cpp/#:~:text=Placement%20new%20is%20a%20variation,object%20in%20the%20passed%20memory.) operator which basically takes the **address of buffer** & constructs the object of given structure or class on that position of buffer (i.e. we usually take **array of char** type to create buffer).
 
 After allocation & construction of these objects, comes the **accessing** part. Well, It was kind of tricky for me but I managed to find out (thanks to stackoverflow) that the objects created by **placement new** operator maintains like **void** type status. Means you can access them by **type-casting** the **buffer-pointer** to the type of **objects** & voila, you are ready to use the optimized Vector class.
 
