@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Forward_Deque
+title: Forward Deque Container (improved version of Vector Container)
 description: >
   A very unique approach to create a contiguous-container which basically overcomes all the reallocation problems in Vector Container in C++.
 hide_image: false
