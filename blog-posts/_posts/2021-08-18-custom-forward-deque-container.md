@@ -10,7 +10,7 @@ accent_image:
   overlay:    true
 ---
 
-Hey lads, so today we're going to have an interesting discussion on a very unique structure. Recently, I was working on [**Optimizing Vector**](https://hypertextassassin0273.github.io/blog-posts/2021-03-25-optimized-minimal-custom-vector-container) & unlike any other container, it has some cons, which I wanted to overcome by changing its internals. Thus, in process, I developed a new structure named as [**Forward_Deque**](https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/Native_Data_Structures/Contiguous_Structures/Forward_Deque.hpp). Now, before we dive into specifics of this stucture, its better to discuss the background & so, we'll start with the drawbacks of **Vector** container.
+Hey lads, so today we're going to have an interesting discussion on a very unique structure. Recently, I was working on [**Optimizing Vector**](https://hypertextassassin0273.github.io/blog-posts/2021-03-25-optimized-minimal-custom-vector-container) & unlike any other container, it has some cons, which I wanted to overcome by changing its internals. Thus, in process, I developed a new structure named as [**Forward Deque**](https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/Native_Data_Structures/Contiguous_Structures/Forward_Deque.hpp). Now, before we dive into specifics of this stucture, its better to discuss the background & so, we'll start with the drawbacks of **Vector** container.
 
 Since, Vector internally uses a **dynamically allocated array** to store its elements, it performs **reallocation process** in order to grow in size when new elements are inserted. But, it also costs us two major issues:
 
