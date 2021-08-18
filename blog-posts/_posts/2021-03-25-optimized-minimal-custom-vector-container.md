@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Optimized Minimal Custom Vector Class
+title: Optimized Minimal Custom Vector Container
 description: >
-  A minimal approach to create optimized Custom Vector Class in C++, covering 'Rule of Five' & implementing the concept of 'Mapping Objects on Dynamically Allocated Buffer'.
+  A minimal approach to create optimized Custom Vector Container in C++, covering 'Rule of Five' & implementing the concept of 'Mapping Objects on Dynamically Allocated Buffer'.
 hide_image: false
 accent_color: '#4fb1ba'
 accent_image:
