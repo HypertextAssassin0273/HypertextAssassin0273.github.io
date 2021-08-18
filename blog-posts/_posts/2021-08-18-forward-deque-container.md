@@ -2,7 +2,7 @@
 layout: post
 title: Forward_Deque
 description: >
-  A very unique contiguous-container in C++.
+  A very unique approach to create a contiguous-container which basically overcomes all the reallocation problems in Vector Container in C++.
 hide_image: false
 accent_color: '#4fb1ba'
 accent_image:
@@ -24,4 +24,6 @@ The internal implementation of Forward_Deque is pretty simple. I've implemented 
 
 Say, we fixed the capacity of chunk (1D array) as 8. On our first push_back, it will first alllocate a new chunk to main array of pointers and stores the provided element in 1st position of chunk. Afterwards, for rest 7 left positions in the chunk, it will directly place the elements one by one. Now, on inserting our 9th element, a reallocation in main array will occur & the 9th element will be stored in 1st position of newly allocated chunk & the next 7 elements will be stored directly in (current) 2nd chunk. But intriguingly, this reallocation in main array will not change the address of our previously stored elements in 1st chunk. Since, reallocation of main array will only copy pointer or base address of previous chunk. Hence, making the complexity time a Geometric progression which is way better than O(N) amount of time for reallocation.
 
-P.S: This implementation can easily become more memory-efficient by making it a "vector of fixed-size dynamic arrays" with only size attribute instead of taking "vector of vectors" as we don't need capacity attribute for our 1D Vector.
+**Note:** Use this container only in C++11 & higher versions as its performance heavily relies on "move semantics"
+
+**P.S:** This implementation can easily become more memory-efficient by making it a "vector of fixed-size dynamic arrays" with only size attribute instead of taking "vector of vectors" as we don't need capacity attribute for our 1D Vector.
