@@ -14,7 +14,7 @@ Hey lads, so today we're going to have an interesting discussion on a very uniqu
 
 Since, Vector internally uses a **dynamically allocated array** to store its elements, it performs **reallocation process** in order to grow in size when new elements are inserted. But, it also costs us two major issues:
 
-1. **invalidates pointers** & **references** to elements as they no longer point to stored elements at **new memory addresses** (Also, this makes Vector harder to be directly used as container for storing dependant resources in complex projects).
+1. **invalidates pointers** & **references** to elements as they no longer point to stored elements at **new memory addresses** (this also makes Vector harder to be directly used as container for storing dependant resources in complex projects).
 2. takes **O(N)** complexity of time to reallocate previously assigned resources (which isn't good performance wise when there are **constant** amount of **push_backs** & the **capacity** isn't **reserved** in Vector).
 
 So, after alot of research, I found **STL::Deque** structure can overcomes these above stated issues. But the problem was that its current **internal implementation** is very heavy & costly as compare to the work we want to do as Vector container. It's like killing a fly with nuke. So, I came up with with a hybrid solution by simply taking the minimal approach of STL::Deque & named the structure as Forward_Deque (as it justifies the sense of **one-sided deque** since it only performs **push_backs** & **pop_backs**, similar to Vector).
