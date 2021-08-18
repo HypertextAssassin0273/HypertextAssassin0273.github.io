@@ -27,6 +27,6 @@ Now, for the **accessing** part, it takes **O(1)** complexity time since we have
 
 **Note:** Use this container only in **C++11 & higher versions** as its performance heavily relies on **move semantics**.
 
-**P.S:** This implementation can easily become more **memory-efficient **by making it a **vector of fixed-size dynamic arrays** with only **size** attribute instead of taking **vector of vectors** as we don't need **capacity** attribute for our 1D Vector.
+**P.S:** This implementation can easily become more **memory-efficient ** by making it a **vector of fixed-size dynamic arrays** with only **size** attribute instead of taking **vector of vectors** as we don't need **capacity** attribute for our 1D Vector.
 
 [Source Code Folder Link](https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/Native_Data_Structures/Contiguous_Structures)
