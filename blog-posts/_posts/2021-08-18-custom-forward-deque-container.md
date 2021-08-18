@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Forward Deque Container
+title: Custom Forward Deque Container
 description: >
-  A very unique approach to create a contiguous-container which basically overcomes all the reallocation problems in Vector Container in C++.
+  A very unique Contiguous Container which basically overcomes all the reallocation problems of Vector Container in C++.
 hide_image: false
 accent_color: '#4fb1ba'
 accent_image:
@@ -10,7 +10,7 @@ accent_image:
   overlay:    true
 ---
 
-Hey lads, so today we're going to have an interesting discussion on a very unique structure. Recently, I was working on Vectors & unlike any other container, it has some cons, which I wanted to overcome by changing its internals. Thus, in process, I developed a new structure named as forward_deque. Now, before we dive into specifics of this stucture, its better to discuss the background & so, we'll start with the drawbacks of Vector Container.
+Hey lads, so today we're going to have an interesting discussion on a very unique structure. Recently, I was working on [**Vectors**]() & unlike any other container, it has some cons, which I wanted to overcome by changing its internals. Thus, in process, I developed a new structure named as Forward_Deque. Now, before we dive into specifics of this stucture, its better to discuss the background & so, we'll start with the drawbacks of Vector Container.
 
 Since, Vector internally uses a dynamically allocated array to store its elements, it performs reallocation process in order to grow in size when new elements are inserted. But, it also costs us two major issues:
 
@@ -29,3 +29,5 @@ Now, for the accessing part, it takes O(1) complexity time since we have fixed s
 **Notes:** Use this container only in C++11 & higher versions as its performance heavily relies on "move semantics"
 
 **P.S:** This implementation can easily become more memory-efficient by making it a "vector of fixed-size dynamic arrays" with only size attribute instead of taking "vector of vectors" as we don't need capacity attribute for our 1D Vector.
+
+[Source Code Folder Link](https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/Native_Data_Structures/Contiguous_Structures)
