@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Forward Deque Container (improved version of Vector Container)
+title: Forward Deque Container
 description: >
   A very unique approach to create a contiguous-container which basically overcomes all the reallocation problems in Vector Container in C++.
 hide_image: false
@@ -12,7 +12,7 @@ accent_image:
 
 Hey lads, so today we're going to have an interesting discussion on a very unique structure. Recently, I was working on Vectors & unlike any other container, it has some cons, which I wanted to overcome by changing its internals. Thus, in process, I developed a new structure named as forward_deque. Now, before we dive into specifics of this stucture, its better to discuss the background & so, we'll start with the drawbacks of Vector Container.
 
-Since, Vectors internally use a dynamically allocated array to store their elements, it performs reallocation process in order to grow in size when new elements are inserted. But, it also costs us two major issues:
+Since, Vector internally uses a dynamically allocated array to store its elements, it performs reallocation process in order to grow in size when new elements are inserted. But, it also costs us two major issues:
 
 1) invalidates pointers & references to elements (as they no longer point to stored elements at new memory addresses). Also, it makes Vector harder to be directly used as container for storing dependant resources in complex projects.
 2) takes O(N) complexity of time to reallocate previously assigned resources (which isn't good performance wise when there are constant amount of push_backs & the capacity isn't reserved in Vector).
@@ -24,6 +24,8 @@ The internal implementation of Forward_Deque is pretty simple. I've implemented 
 
 Say, we fixed the capacity of chunk (1D array) as 8. On our first push_back, it will first alllocate a new chunk to main array of pointers and stores the provided element in 1st position of chunk. Afterwards, for rest 7 left positions in the chunk, it will directly place the elements one by one. Now, on inserting our 9th element, a reallocation in main array will occur & the 9th element will be stored in 1st position of newly allocated chunk & the next 7 elements will be stored directly in (current) 2nd chunk. But intriguingly, this reallocation in main array will not change the address of our previously stored elements in 1st chunk. Since, reallocation of main array will only copy pointer or base address of previous chunk. Hence, making the complexity time a Geometric progression which is way better than O(N) amount of time for reallocation.
 
-**Note:** Use this container only in C++11 & higher versions as its performance heavily relies on "move semantics"
+Now, for the accessing part, it takes O(1) complexity time since we have fixed size of chunks, which makes it possible for us to get the current index of element (by performing some arithmetic calculations). Hence, making it a true contiguous or sequence container.
+
+**Notes:** Use this container only in C++11 & higher versions as its performance heavily relies on "move semantics"
 
 **P.S:** This implementation can easily become more memory-efficient by making it a "vector of fixed-size dynamic arrays" with only size attribute instead of taking "vector of vectors" as we don't need capacity attribute for our 1D Vector.
