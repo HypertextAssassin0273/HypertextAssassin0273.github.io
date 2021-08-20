@@ -25,7 +25,7 @@ Say, we fixed the capacity of **chunk** (1D array) for 8 elements. On our first 
 
 Now, for the **accessing** part, it takes **O(1)** complexity time since we have **fixed size of chunks**, which makes it possible for us to easily get the current index of element (by performing some arithmetic calculations). Hence, making it a true **contiguous** or **sequence container**.
 
-**Note:** This container is only offered in **C++11 & higher versions** since its performance heavily relies on [**move-semantics**](https://www.internalpointers.com/post/c-rvalue-references-and-move-semantics-beginners).
+**Note:** This container is only offered in **C++11 & higher versions** since its performance heavily relies on [**move semantics**](https://www.internalpointers.com/post/c-rvalue-references-and-move-semantics-beginners).
 
 **P.S:** This implementation can easily become more **memory-efficient** by making it a **vector of fixed-size dynamic arrays** with only **size** attribute instead of taking **vector of vectors** as we don't need **capacity** attribute for our 1D Vector.
 
