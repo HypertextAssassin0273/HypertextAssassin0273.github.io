@@ -7,7 +7,7 @@ image:
 screenshot: /assets/img/projects/tree_logo.png
 links:
   - title: Project Report
-    url: https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/MY_DS_LIBRARY/Special_Structures/Documentation_Files/Project%20Report.pdf
+    url: /assets/img/projects/DS-R-Project_Report.pdf
   - title: GitHub
     url: https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/MY_DS_LIBRARY/Special_Structures
 caption: C++11 language (research) based DS-Project
