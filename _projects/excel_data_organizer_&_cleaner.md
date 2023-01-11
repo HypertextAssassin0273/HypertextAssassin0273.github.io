@@ -1,7 +1,7 @@
 ---
 layout: project
 title: 'Excel Data Organizer & Cleaner'
-date: 6 Jun 2021
+date: 6 June 2021
 image:  
   path: /assets/img/projects/excel_data_organizer_and_cleaner.jpg
 screenshot: /assets/img/projects/excel_data_organizer_and_cleaner.jpg
