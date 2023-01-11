@@ -3,8 +3,8 @@ layout: project
 title: 'Multi Attribute AVL Tree Adapter'
 date: 19 Nov 2022
 image:  
-  path: /assets/img/projects/tree_logo.png
-screenshot: /assets/img/projects/tree_logo.png
+  path: /assets/img/projects/tree_balancing.gif
+screenshot: /assets/img/projects/tree_balancing.gif
 links:
   - title: Project Report
     url: /assets/img/projects/DS-R-Project_Report.pdf
