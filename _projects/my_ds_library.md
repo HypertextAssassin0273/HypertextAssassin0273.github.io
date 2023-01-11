@@ -3,8 +3,8 @@ layout: project
 title: 'My DS Library'
 date: 18 Nov 2022
 image:  
-  path: /assets/img/projects/stl_logo.png
-screenshot: /assets/img/projects/stl_logo.png
+  path: /assets/img/projects/cpp_library.jpg
+screenshot: /assets/img/projects/cpp_library.jpg
 links:
   - title: Library Log
     url: https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/MY_DS_LIBRARY/Library_Log.txt
