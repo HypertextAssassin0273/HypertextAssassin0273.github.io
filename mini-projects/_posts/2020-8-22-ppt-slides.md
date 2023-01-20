@@ -16,7 +16,7 @@ accent_image:
 <body>
   <h4>Description:</h4>
   <p>Contains Latest Animated Presentations using Morph Transition & Zoom Feature, created on Microsoft PowerPoint 2019.</p>
-  <a href="https://github.com/HypertextAssassin0273/Unique_PowerPoint_Presentations"><strong>GitHub Repo (Slides)</strong></a>
+  <a href="https://github.com/HypertextAssassin0273/Unique_PowerPoint_Presentations" target="_blank"><strong>GitHub Repo (Slides)</strong></a>
   <br>
   <h2 style="text-align: center;">Slideshow Gallery</h2>
   <div class="slideshow-container">
