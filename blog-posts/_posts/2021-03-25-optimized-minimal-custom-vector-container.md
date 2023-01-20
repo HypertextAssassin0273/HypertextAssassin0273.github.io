@@ -64,7 +64,7 @@ accent_image:
             class in some test-cases to keep the track of Constructions & Destructions of objects in Vector class.
             If there is anything ambiguous, feel free to reach out. Peace!!!
         </p>
-        <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/Native_Data_Structures/Contiguous_Structures"
+        <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/MY_DS_LIBRARY/Contiguous_Structures"
             target="_blank"><b>Source Code Folder</b></a>
     </div>
 </body>
