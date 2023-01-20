@@ -10,7 +10,7 @@ accent_image:
   overlay:    true
 ---
 
-Hey Lads, so I've been working on Custom approach for improving & optimizing the **STL::Vector** class as **contiguous container**. In this regard, I also recently shared two posts on our <a href="https://www.facebook.com/groups/450885176097764" target="_blank"><b>Facebook Group</b></a> for improving Vector class by implementing [**Rule of Three**](/assets/blog_material/Rule_of_Three.pdf) (covering copy-semantics) & further <a href="https://www.internalpointers.com/post/c-rvalue-references-and-move-semantics-beginners" target="_blank"><b>Rule of Five</b></a> (covering move-semantics).
+Hey lads, so I've been working on Custom approach for improving & optimizing the **STL::Vector** class as **contiguous container**. In this regard, I also recently shared two posts on our <a href="https://www.facebook.com/groups/450885176097764" target="_blank"><b>Facebook Group</b></a> for improving Vector class by implementing [**Rule of Three**](/assets/blog_material/Rule_of_Three.pdf) (covering copy-semantics) & further <a href="https://www.internalpointers.com/post/c-rvalue-references-and-move-semantics-beginners" target="_blank"><b>Rule of Five</b></a> (covering move-semantics).
     
 Now, after implementing both of these Rules, I realized that still my Vector class was inefficient to carry out larger operations. So, I did my further research & found out that these Vectors basically work by separate **Allocation** & **Construction**. Yes, you heard it right. **Allocation** & **Construction** are two separate concepts which you normally implement both at same time by declaring **object** or **array of objects** with **'new/malloc'** keyword.
 
