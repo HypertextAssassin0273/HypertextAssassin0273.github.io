@@ -16,8 +16,9 @@ After playing with these structures, I realized that they perform some very expe
 
 <p>
   Recently, I found out that <b>Java</b> has the concept of
-  <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/MY_DS_LIBRARY/Utilities/Garbage_Collector.hpp" target="_blank"><b>Garbage Collectors</b></a> for such scenarios. So, I thought why not implement in <b>C++</b>? And then, I added this really cool concept in my node classes.
-  Also, it's really powerful technique to boost your program for long run.
+  <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/MY_DS_LIBRARY/Utilities/Garbage_Collector.hpp"
+     target="_blank"><b>Garbage Collectors</b></a> for such scenarios. So, I thought why not implement in <b>C++</b>?
+  And then, I added this really cool concept in my linked-list classes. Also, it's really powerful technique to boost your program for long run.
 </p>
 
 The working concept is simple. Each time we want to pop a node, we do not deallocate the node/memory. Instead we transfer it to a **static Garbage Collector**. So, later if someone wants to push a **new node**, we can reuse that transferred node from Garbage Collector. In this way, we don't have to deal with extra **OS requests** (i.e. using **new/delete** keywords).
