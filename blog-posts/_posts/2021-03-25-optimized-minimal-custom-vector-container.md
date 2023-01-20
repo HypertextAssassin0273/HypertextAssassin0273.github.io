@@ -57,7 +57,7 @@ accent_image:
         </p>
         <p>
             <b>P.S:</b> For better understanding, I have provided a lot of <b>test-cases</b> seperately in below
-            attached <b>Source Code Folder</b>
+            attached <b>source code folder link</b>
             (which are also well-commented) & they almost cover all of the use-cases of my custom Vector class.
             Also, I have used an <a href="https://tristanbrindle.com/posts/beware-copies-initializer-list"
                 target="_blank"><b>Instance-Counter</b></a>
