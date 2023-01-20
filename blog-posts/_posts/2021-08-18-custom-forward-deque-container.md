@@ -10,7 +10,14 @@ accent_image:
   overlay:    true
 ---
 
-Hey lads, so today we're going to have an interesting discussion on a very unique structure. Recently, I was working on [**Optimizing Vector**](https://hypertextassassin0273.github.io/blog-posts/2021-03-25-optimized-minimal-custom-vector-container) & like any other container, it has some cons, which I wanted to overcome by changing its internals. Thus, in process, I developed a new structure named as [**Forward Deque**](https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/Native_Data_Structures/Contiguous_Structures/Forward_Deque.hpp). Now, before we dive into specifics of this stucture, it's better to discuss the background & so, we'll start with the drawbacks of **Vector** container.
+<p>
+  Hey lads, so today we're going to have an interesting discussion on a very unique structure. Recently, I was working on
+  <a href="https://hypertextassassin0273.github.io/blog-posts/2021-03-25-optimized-minimal-custom-vector-container" target="_blank"><b>Optimizing Vector</b></a>
+  & like any other container, it has some cons, which I wanted to overcome by changing its internals. Thus, in process, I developed a new structure named as
+  <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/Native_Data_Structures/Contiguous_Structures/Forward_Deque.hpp"
+     target="_blank"><b>Forward Deque</b></a>. Now, before we dive into specifics of this stucture, it's better to discuss the background & so,
+  we'll start with the drawbacks of <b>Vector</b> container.
+</p>
 
 Since, Vector internally uses a **dynamically allocated array** to store its elements, it performs **reallocation process** in order to grow in size when new elements are inserted. But, it also costs us two major issues:
 
@@ -25,8 +32,14 @@ Say, we fixed the capacity of **chunk** (1D array) for 8 elements. On our first 
 
 Now, for the **accessing** part, it takes **O(1)** complexity time since we have **fixed size of chunks**, which makes it possible for us to easily get the current index of element (by performing some arithmetic calculations). Hence, making it a true **contiguous** or **sequence container**.
 
-**Note:** This container is only offered in **C++11 & higher versions** since its performance heavily relies on [**move semantics**](https://www.internalpointers.com/post/c-rvalue-references-and-move-semantics-beginners).
+<p>
+  <b>Note:</b> This container is only offered in <b>C++11 & higher versions</b> since its performance heavily relies on
+  <a href="https://www.internalpointers.com/post/c-rvalue-references-and-move-semantics-beginners" target="_blank"><b>move semantics</b></a>.
+</p>
 
 **P.S:** This implementation can easily become more **memory-efficient** by making it a **vector of fixed-size dynamic arrays** with only **size** attribute instead of taking **vector of vectors** as we don't need **capacity** attribute for our 1D Vector.
 
-[**Source Code Folder Link**](https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/Native_Data_Structures/Contiguous_Structures)
+<p>
+  <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/Native_Data_Structures/Contiguous_Structures"
+    target="_blank"><b>Source Code Folder Link</b></a>
+</p>
