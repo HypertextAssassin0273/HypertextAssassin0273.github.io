@@ -16,6 +16,6 @@ Well it's simple. Since, their **life-span** depends on the **scope**. So, you c
 
 This technique comes very handy when your program contains too many automatic variables & their use is very short in the entire program.
 
-**P.S:** Below is the attached **Source Code** which elaborates this concept more deeply. Run its **.exe** file & then compare the output with code to understand thoroughly. Hope you guys like it. Peace!!!
+**P.S:** Below is the attached **link** of source code which elaborates this concept more deeply. Run its **.exe** file & then compare the output with code to understand thoroughly. Hope you guys like it. Peace!!!
 
-[**Source Code Link**](/assets/blog_material/Automatic_Obj_Manual_Destruction.cpp)
+[**Source Code**](/assets/blog_material/Automatic_Obj_Manual_Destruction.cpp)
