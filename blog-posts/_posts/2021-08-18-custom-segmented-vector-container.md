@@ -12,7 +12,7 @@ accent_image:
 
 <p>
   Hey lads, so today we're going to have an interesting discussion on a very unique structure. Recently, I was working on
-  <a href="/blog-posts/2021-03-25-optimized-minimal-custom-vector-container"><b>Optimizing Vector</b></a>
+  <a href="/2021-03-25-optimized-minimal-custom-vector-container"><b>Optimizing Vector</b></a>
   & like any other container, it has some cons, which I wanted to overcome by changing its internals. Thus, in process, I developed a new structure named as
   <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/MY_DS_LIBRARY/Contiguous_Structures/Segmented_Vector.hpp"
      target="_blank"><b>Segmented Vector</b></a>. Now, before we dive into specifics of this stucture, it's better to discuss the background & so,
@@ -37,7 +37,7 @@ Now, for the **accessing** part, it takes **O(1)** complexity time since we have
   <a href="https://www.internalpointers.com/post/c-rvalue-references-and-move-semantics-beginners" target="_blank"><b>move semantics</b></a>.
 </p>
 
-**P.S:** Below is the attached **source code folder link** containing all latest **contiguous container** classes. If there is still anything unclear, feel free to reach out. Peace!!!.
+**P.S:** Below is the attached **source code folder link** containing important **contiguous structures**. If there is still anything unclear, feel free to reach out. Peace!!!.
 
 <p>
   <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/MY_DS_LIBRARY/Contiguous_Structures"
