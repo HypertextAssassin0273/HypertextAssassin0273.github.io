@@ -10,12 +10,7 @@ accent_image:
   overlay:    true
 ---
 
-<p>
-  Containers like <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/MY_DS_LIBRARY/Contiguous_Structures/Vector.hpp"
-                     target="_blank"><b>vector</b></a> can't store a large amount of <b>heavy-weight</b> objects.
-  They can either store a few heavy objects or a large amount of <b>light-weight</b> objects.
-  A simple workaround for this problem is to use to <b>pointer-type</b> objects.
-</p>
+Containers like <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/MY_DS_LIBRARY/Contiguous_Structures/Vector.hpp" target="_blank"><b>Vector</b></a> can't store a large amount of <b>heavy-weight</b> objects. They can either store a few heavy objects or a large amount of <b>light-weight</b> objects. A simple workaround for this problem is to use to <b>pointer-type</b> objects.
   
 For instance, if we store 3 **integers** inside a vector, this will cost us 12 bytes. Similarly, if we have stored 3 **objects** of 10,000 bytes, this will reserve a total of 30,000 bytes inside vector. If we continue to allocate these heavy objects, soon we'll reach **limit** of that container and we'll no longer be able to allocate new objects  inside that container.
 
@@ -25,7 +20,4 @@ This technique becomes very handy when you need to allocate heavy resources thro
 
 **Note:** Internally, vector allocates bytes by multiplying the **size of object-type** with **total no. of objects**.
 
-<p>
-  <b>P.S:</b> If you have any ambiguity in understanding the concept, please watch this
-  <a href="https://youtu.be/j0_u26Vpb4w?t=1651" target="_blank"><b>reference video</b></a>. Peace!
-</p>
+**P.S:** If you have any ambiguity in understanding the concept, please watch this <a href="https://youtu.be/j0_u26Vpb4w?t=1651" target="_blank"><b>reference video</b></a>. Peace!
