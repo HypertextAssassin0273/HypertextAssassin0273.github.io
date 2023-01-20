@@ -24,4 +24,4 @@ But, here comes another problem, the program will gradually increase in size as 
 
 **P.S:** Below is the attached **Source Code Folder** for Singly & Doubly linked-list classes. If there is anything ambiguous, feel free to reach out. Peace!!!
 
-[**Source Code Folder Link**](https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/Native_Data_Structures/Node_Structures)
+<p><a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/Native_Data_Structures/Node_Structures" target="_blank"><b>Source Code Folder Link</b></a><p/>
