@@ -10,7 +10,7 @@ accent_image:
   overlay:    true
 ---
 
-Hey lads, so today we're going to have an interesting discussion on a very unique structure. Recently, I was working on [**Optimizing Vector**](/2021-03-25-optimized-minimal-custom-vector-container) & like any other container, it has some cons, which I wanted to overcome by changing its internals. Thus, in process, I developed a new structure named as <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/MY_DS_LIBRARY/Contiguous_Structures/Segmented_Vector.hpp" target="_blank"><b>Segmented Vector</b></a>. Now, before we dive into specifics of this stucture, it's better to discuss the background & so, we'll start with the drawbacks of **Vector** container.
+Hey lads, so today we're going to have an interesting discussion on a very unique structure. Recently, I was working on [**Optimizing Vector**](/blog-posts/2021-03-25-optimized-minimal-custom-vector-container) & like any other container, it has some cons, which I wanted to overcome by changing its internals. Thus, in process, I developed a new structure named as <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/MY_DS_LIBRARY/Contiguous_Structures/Segmented_Vector.hpp" target="_blank"><b>Segmented Vector</b></a>. Now, before we dive into specifics of this stucture, it's better to discuss the background & so, we'll start with the drawbacks of **Vector** container.
 
 Since, Vector internally uses a **dynamically allocated array** to store its elements, it performs **reallocation process** in order to grow in size when new elements are inserted. But, it also costs us two major issues:
 
