@@ -20,4 +20,4 @@ This technique becomes very handy when you need to allocate heavy resources thro
 
 **Note:** Internally, vector allocates bytes by multiplying the **size of object-type** with **total no. of objects**.
 
-**P.S:** If you have any ambiguity in understanding the concept, please watch this <a href="https://youtu.be/j0_u26Vpb4w?t=1651" target="_blank"><b>reference video</b></a>. Peace!
+**P.S:** If you have any ambiguity in understanding the concept, please watch this <a href="https://www.youtube.com/watch?v=j0_u26Vpb4w&t=1651s" target="_blank"><b>reference video</b></a>. Peace!
