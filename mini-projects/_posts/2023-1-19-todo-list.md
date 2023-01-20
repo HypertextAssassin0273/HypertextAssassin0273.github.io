@@ -11,7 +11,7 @@ accent_image:
 
 <body>
   <h4>Description:</h4>
-  <p>The main focus of this project is to get the better understanding of core JavaScript concepts alongwith some introduction to Bootstrap for flexibility as my first ever framework.</p>
+  <p>The main focus of this project is to get the better understanding of core JavaScript concepts along with some introduction to Bootstrap for flexibility as my first-ever framework utilizing C.R.U.D operations.</p>
   <strong>
     <a href="https://hypertextassassin0273.github.io/Learn_JS">Website Page</a> &nbsp;
     <a href="https://github.com/HypertextAssassin0273/Learn_JS/tree/master/Code_With_Harry/small_projects">GitHub Repo</a>
