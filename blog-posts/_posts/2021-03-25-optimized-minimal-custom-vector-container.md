@@ -22,7 +22,6 @@ accent_image:
                 target="_blank"><b>Rule of Five</b></a>
             (covering move-semantics).
         </p>
-        <br>
         <p>
             Now, after implementing both of these Rules, I realized that still my Vector class was inefficient to carry
             out larger operations.
@@ -32,7 +31,6 @@ accent_image:
             normally implement both
             at same time by declaring <b>object</b> or <b>array of objects</b> with <b>'new/malloc'</b> keyword.
         </p>
-        <br>
         <p>
             So, <b>STL::Vector</b> initially only allocates & <b>reserves</b> the space for your objects & holds the
             construction part
@@ -41,7 +39,6 @@ accent_image:
             <b>dynamically</b>
             allocated space (called <b>Buffer</b> on <b>Heap</b>).
         </p>
-        <br>
         <p>
             Now, here comes the role of <a href="https://www.geeksforgeeks.org/placement-new-operator-cpp"
                 target="_blank"><b>placement new</b></a>
@@ -49,7 +46,6 @@ accent_image:
             class on that position of buffer
             (i.e. we usually take <b>array of char</b> type to create buffer).
         </p>
-        <br>
         <p>
             After allocation & construction of these objects, comes the <b>accessing</b> part. Well, It was kind of
             tricky for me
@@ -59,7 +55,6 @@ accent_image:
             the type of
             <b>objects</b> & voila, you are ready to use the optimized Vector class.
         </p>
-        <br>
         <p>
             <b>P.S:</b> For better understanding, I have provided a lot of <b>test-cases</b> seperately in below
             attached <b>Source Code Folder</b>
@@ -69,7 +64,6 @@ accent_image:
             class in some test-cases to keep the track of Constructions & Destructions of objects in Vector class.
             If there is anything ambiguous, feel free to reach out. Peace!!!
         </p>
-        <br>
         <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/Native_Data_Structures/Contiguous_Structures"
             target="_blank"><b>Source Code Folder</b></a>
     </div>
