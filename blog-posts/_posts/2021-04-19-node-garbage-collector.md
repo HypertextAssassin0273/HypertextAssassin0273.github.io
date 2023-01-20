@@ -14,12 +14,7 @@ Hey lads, so I've been on working **Data Structures** for quite while & I create
 
 After playing with these structures, I realized that they perform some very expensive operations like **allocation** & **deallocation** of **nodes/memory**. Means each time when user decides to **push** or **pop** a **node**, the **compiler** makes request to **OS (Operating System)** for allocation/deallocation, which makes the process slower on the back-end.
 
-<p>
-  Recently, I found out that <b>Java</b> has the concept of
-  <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/MY_DS_LIBRARY/Utilities/Garbage_Collector.hpp"
-     target="_blank"><b>Garbage Collectors</b></a> for such scenarios. So, I thought why not implement in <b>C++</b>?
-  And then, I added this really cool concept in my linked-list classes. Also, it's really powerful technique to boost your program for long run.
-</p>
+Recently, I found out that <b>Java</b> has the concept of <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/MY_DS_LIBRARY/Utilities/Garbage_Collector.hpp" target="_blank"><b>Garbage Collectors</b></a> for such scenarios. So, I thought why not implement in **C++**? And then, I added this really cool concept in my linked-list classes. Also, it's really powerful technique to boost your program for long run.
 
 The working concept is simple. Each time we want to pop a node, we do not deallocate the node/memory. Instead we transfer it to a **static Garbage Collector**. So, later if someone wants to push a **new node**, we can reuse that transferred node from Garbage Collector. In this way, we don't have to deal with extra **OS requests** (i.e. using **new/delete** keywords).
 
@@ -29,6 +24,4 @@ But, here comes another problem, the program will gradually **increase in size**
 
 **P.S:** Below is the attached **source code folder link** for Singly & Doubly linked-list classes. If there is anything ambiguous, feel free to reach out. Peace!!!
 
-<p>
-  <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/MY_DS_LIBRARY/Linked_Lists" target="_blank"><b>Source Code Folder</b></a>
-</p>
+<a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/MY_DS_LIBRARY/Linked_Lists" target="_blank"><b>Source Code Folder</b></a>
