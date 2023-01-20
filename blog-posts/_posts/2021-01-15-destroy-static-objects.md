@@ -18,5 +18,4 @@ This technique comes very handy when your program contains too many automatic va
 
 **P.S:** Below is the attached **Source Code** which elaborates this concept more deeply. Run its **.exe** file & then compare the output with code to understand thoroughly. Hope you guys like it. Peace!!!
 
-
-<a href="/assets/blog_material/Automatic_Obj_Manual_Destruction.cpp" target="_blank"><b>Source Code Link<b></a>
+[**Source Code Link**](/assets/blog_material/Automatic_Obj_Manual_Destruction.cpp")
