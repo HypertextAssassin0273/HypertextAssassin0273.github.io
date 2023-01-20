@@ -16,9 +16,7 @@ After playing with these structures, I realized that they perform some very expe
 
 <p>
   Recently, I found out that <b>Java</b> has the concept of
-  <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/MY_DS_LIBRARY/Utilities/Garbage_Collector.hpp" target="_blank">
-    <b>Garbage Collectors</b>
-  </a> for such scenarios. So, I thought why not implement in <b>C++</b>? And then, I added this really cool concept in my node classes.
+  <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/blob/main/MY_DS_LIBRARY/Utilities/Garbage_Collector.hpp" target="_blank"><b>Garbage Collectors</b></a> for such scenarios. So, I thought why not implement in <b>C++</b>? And then, I added this really cool concept in my node classes.
   Also, it's really powerful technique to boost your program for long run.
 </p>
 
@@ -31,7 +29,5 @@ But, here comes another problem, the program will gradually **increase in size**
 **P.S:** Below is the attached **source code folder link** for Singly & Doubly linked-list classes. If there is anything ambiguous, feel free to reach out. Peace!!!
 
 <p>
-  <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/MY_DS_LIBRARY/Linked_Lists" target="_blank">
-    <b>Source Code Folder</b>
-  </a>
+  <a href="https://github.com/HypertextAssassin0273/Data_Structures_in_Cpp/tree/main/MY_DS_LIBRARY/Linked_Lists" target="_blank"><b>Source Code Folder</b></a>
 </p>
