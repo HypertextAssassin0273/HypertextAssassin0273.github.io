@@ -31,7 +31,7 @@
     "color": "^3.0.0",
     "dedent": "^0.7.0",
     "json2yaml": "^1.1.0",
-    "onchange": "^4.1.0",
+    "onchange": "^7.1.0",
     "prettier": "^1.14.2",
     "re-template-tag": "^2.0.1",
     "webpack": "^5.76.0",
