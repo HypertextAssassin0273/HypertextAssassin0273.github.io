@@ -17,8 +17,8 @@ accent_image:
 <body>
   <h4>Description:</h4>
   <p>The main purpose of this project is to understand the synergy b/w html,css & javascript on github pages. Moreover, it includes CSS-Grids & JavaScript Frameworks too.</p>
-  <a href="https://hypertextassassin0273.github.io/html-css-javascript" target="_blank"><strong>Website Page</strong></a> &nbsp;
-  <a href="https://github.com/HypertextAssassin0273/html-css-javascript" target="_blank"><strong>GitHub Repo</strong></a>
+  <a href="https://hypertextassassin0273.github.io/html-css-javascript-workspace" target="_blank"><strong>Website Page</strong></a> &nbsp;
+  <a href="https://github.com/HypertextAssassin0273/html-css-javascript-workspace" target="_blank"><strong>GitHub Repo</strong></a>
   <br>
   <h2 style="text-align: center;">Slideshow Gallery</h2>
   <div class="slideshow-container">
