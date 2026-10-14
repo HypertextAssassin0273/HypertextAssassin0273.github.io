@@ -48,6 +48,60 @@ work:
       - "Maintained Linux staging deployment scripts, web server routing configurations, and environment secret isolation routines."
       - "Standardized dependency management and team version control practices, assisting in building automated CI/CD staging pipelines."
 
+volunteer:
+  - organization: "Booking Management System (BMS)"
+    position: "Workflow Engine & Invoicing (PHP)"
+    website: ""
+    startDate: "2026-01-01"
+    endDate: "2026-03-01"
+    summary: "Enterprise booking data architecture and automated invoicing engine."
+    highlights:
+      - "Engineered an enterprise booking data architecture decoupling core calculation logic from presentation formatting."
+      - "Automated deterministic invoice artifact generation, replacing fragmented manual entry with transactional data integrity."
+      - "Implemented role-based CRUD workflows backed by MySQL relational tables with strict referential constraints."
+
+  - organization: "Automated Deployment Daemon & API Orchestration System"
+    position: "Flask, systemd, Nginx"
+    website: ""
+    startDate: "2025-11-01"
+    endDate: "2026-01-01"
+    summary: "Script-driven CI/CD deployment architecture for live Linux VPS servers."
+    highlights:
+      - "Developed a script-driven CI/CD deployment architecture capable of executing single-command software updates securely on live Linux VPS servers."
+      - "Secured application boundaries with systemd daemon processes, Nginx reverse proxy routing, and automated SSL provisioning."
+      - "Architected a custom interaction layer that decoupled UI rendering from third-party API response structures (Google Custom Search API)."
+
+  - organization: "QR Attendance"
+    position: "Rapid Prototype (Lovable, TypeScript, Supabase)"
+    website: ""
+    startDate: "2025-10-01"
+    endDate: "2025-11-01"
+    summary: "End-to-end GPS-verified classroom attendance verification system."
+    highlights:
+      - "Scaffolded an end-to-end attendance verification app using Lovable (AI generator), wiring the generated UI to a Supabase (PostgreSQL) backend."
+      - "Modified generated backend functions and database schema to store classroom GPS coordinates and compare student submission locations."
+      - "Customized database constraints in PostgreSQL to prevent duplicate student check-ins and configured roster exports to CSV/Excel."
+
+  - organization: "Abbas Brothers"
+    position: "Turnkey Industrial Website & Serverless CMS (Vanilla JS, Vite)"
+    website: ""
+    startDate: "2025-08-01"
+    endDate: "2025-10-01"
+    summary: "Production industrial website with serverless Google Sheets/Apps Script CMS."
+    highlights:
+      - "Designed and delivered a production-ready industrial website with a decoupled source/distribution architecture, native Web Components, Vite builds, GitHub Actions CI/CD, and Cloudflare Pages/Workers."
+      - "Built a serverless content pipeline using Google Drive, Google Sheets, and Apps Script to publish equipment and spare-parts catalogs as live JSON, with automated deployment, secure contact-form routing, and edge security controls."
+
+  - organization: "Web Tools Dashboard"
+    position: "Developer Utilities (React, Tailwind CSS, Vite)"
+    website: ""
+    startDate: "2025-06-01"
+    endDate: "2025-08-01"
+    summary: "Serverless, local-first developer utilities dashboard."
+    highlights:
+      - "Built a serverless, local-first web tools dashboard (using React + Tailwind CSS) for managing and publishing custom utilities, with tag search, dark mode, and usage-based sorting."
+      - "Implemented client-side GitHub API integration and automated GitHub Pages deployment using Vite build tooling."
+
 education:
   - institution: "Denning Institute of Technology & Entrepreneurship (DITE) — University of Greenwich (UK)"
     area: "Computing (1st Year)"
@@ -91,7 +145,7 @@ skills:
       - "Transactions"
       - "In-Memory Data Structures"
   - name: "Web Development"
-    level: "Advanced"
+    level: "Professional"
     keywords:
       - "React"
       - "Next.js"
@@ -103,7 +157,7 @@ skills:
       - "Google Apps Script"
       - "GitHub API/Pages"
   - name: "Infrastructure & DevOps"
-    level: "Advanced"
+    level: "Professional"
     keywords:
       - "Ubuntu"
       - "Docker"
@@ -115,13 +169,13 @@ skills:
       - "GitHub Actions"
       - "Git/GitLab"
   - name: "Cloud & Automation"
-    level: "Advanced"
+    level: "Intermediate"
     keywords:
       - "Cloudflare R2"
       - "DNS Management"
       - "n8n Orchestration"
   - name: "AI-Assisted Development"
-    level: "Advanced"
+    level: "Professional"
     keywords:
       - "Cursor"
       - "Lovable"
@@ -140,7 +194,7 @@ languages:
   - language: "SQL"
     fluency: "full-professional-proficiency"
   - language: "JavaScript"
-    fluency: "full-working-proficiency"
+    fluency: "full-professional-proficiency"
   - language: "TypeScript"
     fluency: "professional-working-proficiency"
   - language: "Bash/Shell"
