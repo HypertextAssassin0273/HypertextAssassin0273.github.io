@@ -3,7 +3,7 @@ basics:
   label: "Backend Engineer & BSc (Hons) Computing Student"
   picture: "/assets/icons/icon.png"
   email: "shahzaib27011999@gmail.com"
-  phone: "+92-335-6678673"
+  phone: "+923356678673"
   website: "https://hypertextassassin0273.github.io"
   summary: >
     Backend Engineer with a solid computer science foundation from FAST-NUCES, currently pursuing a bachelor's degree at DITE (UoG). Specialized in building modular RESTful APIs, relational data models (MySQL, PostgreSQL), and backend business logic using Python (Flask/FastAPI), PHP, and Node.js. Maintainer of an open-source custom STL containers C++ library, leveraging AI-assisted tools for rapid interface prototyping while focusing on delivering deterministic data pipelines, robust schema constraints, secure backend services, and reliable containerized deployments.<br><br>
@@ -140,7 +140,7 @@ languages:
   - language: "SQL"
     fluency: "full-professional-proficiency"
   - language: "JavaScript"
-    fluency: "professional-working-proficiency"
+    fluency: "full-working-proficiency"
   - language: "TypeScript"
     fluency: "professional-working-proficiency"
   - language: "Bash/Shell"
