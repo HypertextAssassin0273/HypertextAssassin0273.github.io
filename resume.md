@@ -5,9 +5,9 @@ hide_description: true
 menu: true
 order: 5
 left_column:
- - education
  - work
  - volunteer
+ - education
  - awards
  - interests
 # - publications
